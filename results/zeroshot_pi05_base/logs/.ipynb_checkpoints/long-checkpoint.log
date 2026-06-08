@@ -1,0 +1,439 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+INFO:root:Task suite: libero_10
+INFO:root:Waiting for server at ws://0.0.0.0:8000...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  0%|          | 0/10 [00:00<?, ?it/s]/root/openpi/third_party/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 1
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:19<01:18, 19.65s/it][AINFO:root:
+Task: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 2
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:40<01:00, 20.27s/it][AINFO:root:
+Task: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 3
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [01:00<00:40, 20.20s/it][AINFO:root:
+Task: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 4
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:20<00:20, 20.14s/it][AINFO:root:
+Task: put both the alphabet soup and the tomato sauce in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 5
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:40<00:00, 20.01s/it][A100%|██████████| 5/5 [01:40<00:00, 20.06s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 10%|█         | 1/10 [01:42<15:26, 102.94s/it]/root/openpi/third_party/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put both the cream cheese box and the butter in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 6
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:19<01:19, 19.96s/it][AINFO:root:
+Task: put both the cream cheese box and the butter in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 7
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:39<00:59, 19.85s/it][AINFO:root:
+Task: put both the cream cheese box and the butter in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 8
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:59<00:39, 19.92s/it][AINFO:root:
+Task: put both the cream cheese box and the butter in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 9
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:19<00:19, 19.93s/it][AINFO:root:
+Task: put both the cream cheese box and the butter in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 10
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:39<00:00, 19.96s/it][A100%|██████████| 5/5 [01:39<00:00, 19.94s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 20%|██        | 2/10 [03:23<13:34, 101.77s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: turn on the stove and put the moka pot on it
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 11
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:17<01:10, 17.69s/it][AINFO:root:
+Task: turn on the stove and put the moka pot on it
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 12
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:35<00:53, 17.70s/it][AINFO:root:
+Task: turn on the stove and put the moka pot on it
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 13
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:52<00:35, 17.63s/it][AINFO:root:
+Task: turn on the stove and put the moka pot on it
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 14
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:09<00:17, 17.39s/it][AINFO:root:
+Task: turn on the stove and put the moka pot on it
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 15
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:27<00:00, 17.50s/it][A100%|██████████| 5/5 [01:27<00:00, 17.53s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 30%|███       | 3/10 [04:52<11:09, 95.61s/it] 
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 16
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:18<01:12, 18.06s/it][AINFO:root:
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 17
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:36<00:54, 18.02s/it][AINFO:root:
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 18
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:54<00:36, 18.10s/it][AINFO:root:
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 19
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:12<00:18, 18.00s/it][AINFO:root:
+Task: put the black bowl in the bottom drawer of the cabinet and close it
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 20
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:30<00:00, 17.97s/it][A100%|██████████| 5/5 [01:30<00:00, 18.00s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 40%|████      | 4/10 [06:23<09:23, 93.84s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 21
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:19<01:19, 19.85s/it][AINFO:root:
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 22
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:39<00:59, 19.85s/it][AINFO:root:
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 23
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:59<00:39, 19.81s/it][AINFO:root:
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 24
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:19<00:19, 19.98s/it][AINFO:root:
+Task: put the white mug on the left plate and put the yellow and white mug on the right plate
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 25
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:39<00:00, 20.02s/it][A100%|██████████| 5/5 [01:39<00:00, 19.96s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 50%|█████     | 5/10 [08:06<08:05, 97.10s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 26
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:17<01:08, 17.17s/it][AINFO:root:
+Task: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 27
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:34<00:51, 17.23s/it][AINFO:root:
+Task: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 28
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:51<00:34, 17.20s/it][AINFO:root:
+Task: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 29
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:08<00:17, 17.15s/it][AINFO:root:
+Task: pick up the book and place it in the back compartment of the caddy
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 30
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:25<00:00, 17.18s/it][A100%|██████████| 5/5 [01:25<00:00, 17.18s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 60%|██████    | 6/10 [09:33<06:14, 93.74s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 31
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:18<01:13, 18.38s/it][AINFO:root:
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 32
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:36<00:55, 18.51s/it][AINFO:root:
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 33
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:55<00:36, 18.49s/it][AINFO:root:
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 34
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:14<00:18, 18.78s/it][AINFO:root:
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 35
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:35<00:00, 19.60s/it][A100%|██████████| 5/5 [01:35<00:00, 19.15s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 70%|███████   | 7/10 [11:10<04:44, 94.76s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 36
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:18<01:12, 18.12s/it][AINFO:root:
+Task: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 37
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:36<00:54, 18.06s/it][AINFO:root:
+Task: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 38
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:54<00:36, 18.11s/it][AINFO:root:
+Task: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 39
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:13<00:18, 18.36s/it][AINFO:root:
+Task: put both the alphabet soup and the cream cheese box in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 40
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:31<00:00, 18.28s/it][A100%|██████████| 5/5 [01:31<00:00, 18.24s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 80%|████████  | 8/10 [12:42<03:07, 93.96s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put both moka pots on the stove
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 41
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:18<01:12, 18.03s/it][AINFO:root:
+Task: put both moka pots on the stove
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 42
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:35<00:53, 17.89s/it][AINFO:root:
+Task: put both moka pots on the stove
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 43
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:53<00:35, 17.89s/it][AINFO:root:
+Task: put both moka pots on the stove
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 44
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:11<00:17, 17.70s/it][AINFO:root:
+Task: put both moka pots on the stove
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 45
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:28<00:00, 17.74s/it][A100%|██████████| 5/5 [01:28<00:00, 17.79s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 90%|█████████ | 9/10 [14:12<01:32, 92.58s/it]
+  0%|          | 0/5 [00:00<?, ?it/s][AINFO:root:
+Task: put the yellow and white mug in the microwave and close it
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 46
+INFO:root:# successes: 0 (0.0%)
+
+ 20%|██        | 1/5 [00:17<01:10, 17.69s/it][AINFO:root:
+Task: put the yellow and white mug in the microwave and close it
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 47
+INFO:root:# successes: 0 (0.0%)
+
+ 40%|████      | 2/5 [00:35<00:53, 17.77s/it][AINFO:root:
+Task: put the yellow and white mug in the microwave and close it
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 48
+INFO:root:# successes: 0 (0.0%)
+
+ 60%|██████    | 3/5 [00:55<00:37, 18.98s/it][AINFO:root:
+Task: put the yellow and white mug in the microwave and close it
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 49
+INFO:root:# successes: 0 (0.0%)
+
+ 80%|████████  | 4/5 [01:13<00:18, 18.55s/it][AINFO:root:
+Task: put the yellow and white mug in the microwave and close it
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 50
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 5/5 [01:31<00:00, 18.31s/it][A100%|██████████| 5/5 [01:31<00:00, 18.34s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+100%|██████████| 10/10 [15:44<00:00, 92.57s/it]100%|██████████| 10/10 [15:44<00:00, 94.46s/it]
+INFO:root:Total success rate: 0.0
+INFO:root:Total episodes: 50
+Exception ignored in: <function MjRenderContext.__del__ at 0x7ff555b36b80>
+Traceback (most recent call last):
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "src/errorchecker.pyx", line 59, in OpenGL_accelerate.errorchecker._ErrorChecker.glCheckError
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7ff5495f1440>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7ff55823c0c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7ff55823c0c0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7ff558223ac0>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7ff555b369d0>
+Traceback (most recent call last):
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "src/errorchecker.pyx", line 59, in OpenGL_accelerate.errorchecker._ErrorChecker.glCheckError
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7ff5495f1440>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7ff55823c0c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7ff55823c0c0>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7ff558223ac0>,
+	),
+	result = 0
+)

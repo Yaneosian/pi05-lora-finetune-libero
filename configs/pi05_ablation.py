@@ -1,0 +1,199 @@
+# Rank ablation configs for π0.5 on LIBERO
+# Add these TrainConfigs into openpi/src/openpi/training/config.py
+#
+# Experimental design:
+#   - Fixed: action expert rank=32 (default gemma_300m_lora)
+#   - Variable: PaliGemma backbone LoRA rank in {4, 8, 16, 32, 64}
+#   - Batch size: 8 (reduced from baseline bs=64)
+#   - Learning rate: 6.25e-6 = 5e-5 x (8/64), Linear Scaling Rule
+#   - Steps: 30k (same as baseline for fair comparison)
+
+TrainConfig(
+    name="pi05_libero_ablation_r4",
+    model=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r4",    # only ablation variable
+        action_expert_variant="gemma_300m_lora", # fixed at rank=32
+    ),
+    data=LeRobotLiberoDataConfig(
+        repo_id="physical-intelligence/libero",
+        base_config=DataConfig(prompt_from_task=True),
+        extra_delta_transform=False,
+    ),
+    weight_loader=weight_loaders.CheckpointWeightLoader(
+        "gs://openpi-assets/checkpoints/pi05_base/params"
+    ),
+    batch_size=8,
+    num_train_steps=30_000,
+    lr_schedule=_optimizer.CosineDecaySchedule(
+        warmup_steps=500,
+        peak_lr=6.25e-6,    # Linear Scaling Rule: 5e-5 x (8/64)
+        decay_steps=30_000,
+        decay_lr=6.25e-7,
+    ),
+    optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
+    ema_decay=None,
+    freeze_filter=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r4",    # must match model exactly
+        action_expert_variant="gemma_300m_lora",
+    ).get_freeze_filter(),
+    save_interval=2_500,
+    keep_period=10_000,
+),
+
+TrainConfig(
+    name="pi05_libero_ablation_r8",
+    model=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r8",
+        action_expert_variant="gemma_300m_lora",
+    ),
+    data=LeRobotLiberoDataConfig(
+        repo_id="physical-intelligence/libero",
+        base_config=DataConfig(prompt_from_task=True),
+        extra_delta_transform=False,
+    ),
+    weight_loader=weight_loaders.CheckpointWeightLoader(
+        "gs://openpi-assets/checkpoints/pi05_base/params"
+    ),
+    batch_size=8,
+    num_train_steps=30_000,
+    lr_schedule=_optimizer.CosineDecaySchedule(
+        warmup_steps=500,
+        peak_lr=6.25e-6,
+        decay_steps=30_000,
+        decay_lr=6.25e-7,
+    ),
+    optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
+    ema_decay=None,
+    freeze_filter=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r8",
+        action_expert_variant="gemma_300m_lora",
+    ).get_freeze_filter(),
+    save_interval=2_500,
+    keep_period=10_000,
+),
+
+TrainConfig(
+    name="pi05_libero_ablation_r16",
+    model=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r16",
+        action_expert_variant="gemma_300m_lora",
+    ),
+    data=LeRobotLiberoDataConfig(
+        repo_id="physical-intelligence/libero",
+        base_config=DataConfig(prompt_from_task=True),
+        extra_delta_transform=False,
+    ),
+    weight_loader=weight_loaders.CheckpointWeightLoader(
+        "gs://openpi-assets/checkpoints/pi05_base/params"
+    ),
+    batch_size=8,
+    num_train_steps=30_000,
+    lr_schedule=_optimizer.CosineDecaySchedule(
+        warmup_steps=500,
+        peak_lr=6.25e-6,
+        decay_steps=30_000,
+        decay_lr=6.25e-7,
+    ),
+    optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
+    ema_decay=None,
+    freeze_filter=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r16",
+        action_expert_variant="gemma_300m_lora",
+    ).get_freeze_filter(),
+    save_interval=2_500,
+    keep_period=10_000,
+),
+
+TrainConfig(
+    name="pi05_libero_ablation_r32",
+    model=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r32",
+        action_expert_variant="gemma_300m_lora",
+    ),
+    data=LeRobotLiberoDataConfig(
+        repo_id="physical-intelligence/libero",
+        base_config=DataConfig(prompt_from_task=True),
+        extra_delta_transform=False,
+    ),
+    weight_loader=weight_loaders.CheckpointWeightLoader(
+        "gs://openpi-assets/checkpoints/pi05_base/params"
+    ),
+    batch_size=8,
+    num_train_steps=30_000,
+    lr_schedule=_optimizer.CosineDecaySchedule(
+        warmup_steps=500,
+        peak_lr=6.25e-6,
+        decay_steps=30_000,
+        decay_lr=6.25e-7,
+    ),
+    optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
+    ema_decay=None,
+    freeze_filter=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r32",
+        action_expert_variant="gemma_300m_lora",
+    ).get_freeze_filter(),
+    save_interval=2_500,
+    keep_period=10_000,
+),
+
+TrainConfig(
+    name="pi05_libero_ablation_r64",
+    model=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r64",
+        action_expert_variant="gemma_300m_lora",
+    ),
+    data=LeRobotLiberoDataConfig(
+        repo_id="physical-intelligence/libero",
+        base_config=DataConfig(prompt_from_task=True),
+        extra_delta_transform=False,
+    ),
+    weight_loader=weight_loaders.CheckpointWeightLoader(
+        "gs://openpi-assets/checkpoints/pi05_base/params"
+    ),
+    batch_size=8,
+    num_train_steps=30_000,
+    lr_schedule=_optimizer.CosineDecaySchedule(
+        warmup_steps=500,
+        peak_lr=6.25e-6,
+        decay_steps=30_000,
+        decay_lr=6.25e-7,
+    ),
+    optimizer=_optimizer.AdamW(clip_gradient_norm=1.0),
+    ema_decay=None,
+    freeze_filter=pi0_config.Pi0Config(
+        pi05=True,
+        action_horizon=10,
+        discrete_state_input=False,
+        paligemma_variant="gemma_2b_lora_r64",
+        action_expert_variant="gemma_300m_lora",
+    ).get_freeze_filter(),
+    save_interval=2_500,
+    keep_period=10_000,
+),

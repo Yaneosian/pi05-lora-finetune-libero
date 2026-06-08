@@ -1,0 +1,3615 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+INFO:root:Task suite: libero_spatial
+INFO:root:Waiting for server at ws://0.0.0.0:8000...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  0%|          | 0/10 [00:00<?, ?it/s]/root/openpi/third_party/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 1
+INFO:root:# successes: 1 (100.0%)
+
+  2%|▏         | 1/50 [00:44<36:43, 44.97s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 2
+INFO:root:# successes: 2 (100.0%)
+
+  4%|▍         | 2/50 [00:52<18:07, 22.66s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 3
+INFO:root:# successes: 3 (100.0%)
+
+  6%|▌         | 3/50 [00:58<11:51, 15.15s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 4
+INFO:root:# successes: 4 (100.0%)
+
+  8%|▊         | 4/50 [01:04<09:04, 11.84s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 5
+INFO:root:# successes: 5 (100.0%)
+
+ 10%|█         | 5/50 [01:10<07:15,  9.69s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 6
+INFO:root:# successes: 6 (100.0%)
+
+ 12%|█▏        | 6/50 [01:17<06:18,  8.60s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 7
+INFO:root:# successes: 7 (100.0%)
+
+ 14%|█▍        | 7/50 [01:23<05:34,  7.77s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 8
+INFO:root:# successes: 8 (100.0%)
+
+ 16%|█▌        | 8/50 [01:29<05:10,  7.38s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 9
+INFO:root:# successes: 9 (100.0%)
+
+ 18%|█▊        | 9/50 [01:35<04:43,  6.92s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 10
+INFO:root:# successes: 10 (100.0%)
+
+ 20%|██        | 10/50 [01:42<04:30,  6.75s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 11
+INFO:root:# successes: 11 (100.0%)
+
+ 22%|██▏       | 11/50 [01:49<04:24,  6.77s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 12
+INFO:root:# successes: 12 (100.0%)
+
+ 24%|██▍       | 12/50 [01:55<04:10,  6.60s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 13
+INFO:root:# successes: 13 (100.0%)
+
+ 26%|██▌       | 13/50 [02:00<03:54,  6.33s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 14
+INFO:root:# successes: 14 (100.0%)
+
+ 28%|██▊       | 14/50 [02:07<03:54,  6.51s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 15
+INFO:root:# successes: 15 (100.0%)
+
+ 30%|███       | 15/50 [02:14<03:50,  6.57s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 16
+INFO:root:# successes: 16 (100.0%)
+
+ 32%|███▏      | 16/50 [02:22<03:58,  7.00s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 17
+INFO:root:# successes: 17 (100.0%)
+
+ 34%|███▍      | 17/50 [02:29<03:44,  6.81s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 18
+INFO:root:# successes: 18 (100.0%)
+
+ 36%|███▌      | 18/50 [02:34<03:29,  6.56s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 19
+INFO:root:# successes: 19 (100.0%)
+
+ 38%|███▊      | 19/50 [02:41<03:23,  6.58s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 20
+INFO:root:# successes: 20 (100.0%)
+
+ 40%|████      | 20/50 [02:47<03:09,  6.33s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 21
+INFO:root:# successes: 21 (100.0%)
+
+ 42%|████▏     | 21/50 [02:54<03:07,  6.46s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 22
+INFO:root:# successes: 22 (100.0%)
+
+ 44%|████▍     | 22/50 [03:00<02:57,  6.35s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 23
+INFO:root:# successes: 23 (100.0%)
+
+ 46%|████▌     | 23/50 [03:06<02:52,  6.39s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 24
+INFO:root:# successes: 24 (100.0%)
+
+ 48%|████▊     | 24/50 [03:13<02:46,  6.39s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 25
+INFO:root:# successes: 25 (100.0%)
+
+ 50%|█████     | 25/50 [03:20<02:51,  6.84s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 26
+INFO:root:# successes: 26 (100.0%)
+
+ 52%|█████▏    | 26/50 [03:26<02:34,  6.45s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 27
+INFO:root:# successes: 27 (100.0%)
+
+ 54%|█████▍    | 27/50 [03:32<02:24,  6.30s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 28
+INFO:root:# successes: 28 (100.0%)
+
+ 56%|█████▌    | 28/50 [03:39<02:20,  6.38s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 29
+INFO:root:# successes: 29 (100.0%)
+
+ 58%|█████▊    | 29/50 [03:45<02:13,  6.36s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 30
+INFO:root:# successes: 30 (100.0%)
+
+ 60%|██████    | 30/50 [03:51<02:05,  6.28s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 31
+INFO:root:# successes: 30 (96.8%)
+
+ 62%|██████▏   | 31/50 [04:05<02:42,  8.57s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 32
+INFO:root:# successes: 31 (96.9%)
+
+ 64%|██████▍   | 32/50 [04:11<02:23,  7.99s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 33
+INFO:root:# successes: 32 (97.0%)
+
+ 66%|██████▌   | 33/50 [04:18<02:06,  7.42s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 34
+INFO:root:# successes: 33 (97.1%)
+
+ 68%|██████▊   | 34/50 [04:24<01:56,  7.27s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 35
+INFO:root:# successes: 34 (97.1%)
+
+ 70%|███████   | 35/50 [04:31<01:43,  6.92s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 36
+INFO:root:# successes: 35 (97.2%)
+
+ 72%|███████▏  | 36/50 [04:36<01:32,  6.60s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 37
+INFO:root:# successes: 36 (97.3%)
+
+ 74%|███████▍  | 37/50 [04:43<01:26,  6.63s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 38
+INFO:root:# successes: 37 (97.4%)
+
+ 76%|███████▌  | 38/50 [04:50<01:18,  6.56s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 39
+INFO:root:# successes: 38 (97.4%)
+
+ 78%|███████▊  | 39/50 [04:56<01:11,  6.55s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 40
+INFO:root:# successes: 39 (97.5%)
+
+ 80%|████████  | 40/50 [05:02<01:03,  6.37s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 41
+INFO:root:# successes: 40 (97.6%)
+
+ 82%|████████▏ | 41/50 [05:08<00:56,  6.29s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 42
+INFO:root:# successes: 41 (97.6%)
+
+ 84%|████████▍ | 42/50 [05:14<00:50,  6.31s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 43
+INFO:root:# successes: 41 (95.3%)
+
+ 86%|████████▌ | 43/50 [05:28<00:59,  8.52s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 44
+INFO:root:# successes: 42 (95.5%)
+
+ 88%|████████▊ | 44/50 [05:36<00:49,  8.22s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 45
+INFO:root:# successes: 43 (95.6%)
+
+ 90%|█████████ | 45/50 [05:42<00:37,  7.57s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 46
+INFO:root:# successes: 44 (95.7%)
+
+ 92%|█████████▏| 46/50 [05:48<00:28,  7.11s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 47
+INFO:root:# successes: 45 (95.7%)
+
+ 94%|█████████▍| 47/50 [05:54<00:20,  6.85s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 48
+INFO:root:# successes: 46 (95.8%)
+
+ 96%|█████████▌| 48/50 [06:01<00:13,  6.85s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 49
+INFO:root:# successes: 47 (95.9%)
+
+ 98%|█████████▊| 49/50 [06:07<00:06,  6.78s/it][AINFO:root:
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 50
+INFO:root:# successes: 48 (96.0%)
+
+100%|██████████| 50/50 [06:14<00:00,  6.56s/it][A100%|██████████| 50/50 [06:14<00:00,  7.48s/it]
+INFO:root:Current task success rate: 0.96
+INFO:root:Current total success rate: 0.96
+ 10%|█         | 1/10 [06:16<56:28, 376.55s/it]/root/openpi/third_party/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 51
+INFO:root:# successes: 49 (96.1%)
+
+  2%|▏         | 1/50 [00:11<09:26, 11.57s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 52
+INFO:root:# successes: 50 (96.2%)
+
+  4%|▍         | 2/50 [00:22<08:48, 11.01s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 53
+INFO:root:# successes: 51 (96.2%)
+
+  6%|▌         | 3/50 [00:30<07:39,  9.79s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 54
+INFO:root:# successes: 52 (96.3%)
+
+  8%|▊         | 4/50 [00:41<07:47, 10.16s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 55
+INFO:root:# successes: 52 (94.5%)
+
+ 10%|█         | 5/50 [00:55<08:35, 11.46s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 56
+INFO:root:# successes: 52 (92.9%)
+
+ 12%|█▏        | 6/50 [01:08<09:00, 12.29s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 57
+INFO:root:# successes: 52 (91.2%)
+
+ 14%|█▍        | 7/50 [01:22<09:10, 12.81s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 58
+INFO:root:# successes: 52 (89.7%)
+
+ 16%|█▌        | 8/50 [01:36<09:09, 13.08s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 59
+INFO:root:# successes: 53 (89.8%)
+
+ 18%|█▊        | 9/50 [01:46<08:11, 11.98s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 60
+INFO:root:# successes: 54 (90.0%)
+
+ 20%|██        | 10/50 [01:56<07:45, 11.63s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 61
+INFO:root:# successes: 54 (88.5%)
+
+ 22%|██▏       | 11/50 [02:10<07:58, 12.28s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 62
+INFO:root:# successes: 54 (87.1%)
+
+ 24%|██▍       | 12/50 [02:24<08:09, 12.88s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 63
+INFO:root:# successes: 55 (87.3%)
+
+ 26%|██▌       | 13/50 [02:32<06:56, 11.26s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 64
+INFO:root:# successes: 55 (85.9%)
+
+ 28%|██▊       | 14/50 [02:46<07:17, 12.15s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 65
+INFO:root:# successes: 56 (86.2%)
+
+ 30%|███       | 15/50 [02:58<07:07, 12.21s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 66
+INFO:root:# successes: 57 (86.4%)
+
+ 32%|███▏      | 16/50 [03:07<06:20, 11.18s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 67
+INFO:root:# successes: 58 (86.6%)
+
+ 34%|███▍      | 17/50 [03:16<05:41, 10.34s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 68
+INFO:root:# successes: 59 (86.8%)
+
+ 36%|███▌      | 18/50 [03:23<05:05,  9.56s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 69
+INFO:root:# successes: 60 (87.0%)
+
+ 38%|███▊      | 19/50 [03:31<04:41,  9.07s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 70
+INFO:root:# successes: 61 (87.1%)
+
+ 40%|████      | 20/50 [03:39<04:22,  8.74s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 71
+INFO:root:# successes: 62 (87.3%)
+
+ 42%|████▏     | 21/50 [03:47<04:08,  8.58s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 72
+INFO:root:# successes: 63 (87.5%)
+
+ 44%|████▍     | 22/50 [04:00<04:29,  9.62s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 73
+INFO:root:# successes: 64 (87.7%)
+
+ 46%|████▌     | 23/50 [04:08<04:07,  9.16s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 74
+INFO:root:# successes: 65 (87.8%)
+
+ 48%|████▊     | 24/50 [04:15<03:44,  8.65s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 75
+INFO:root:# successes: 66 (88.0%)
+
+ 50%|█████     | 25/50 [04:24<03:35,  8.63s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 76
+INFO:root:# successes: 67 (88.2%)
+
+ 52%|█████▏    | 26/50 [04:34<03:37,  9.06s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 77
+INFO:root:# successes: 68 (88.3%)
+
+ 54%|█████▍    | 27/50 [04:41<03:16,  8.53s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 78
+INFO:root:# successes: 69 (88.5%)
+
+ 56%|█████▌    | 28/50 [04:49<03:03,  8.35s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 79
+INFO:root:# successes: 70 (88.6%)
+
+ 58%|█████▊    | 29/50 [04:57<02:56,  8.40s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 80
+INFO:root:# successes: 71 (88.8%)
+
+ 60%|██████    | 30/50 [05:06<02:50,  8.51s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 81
+INFO:root:# successes: 72 (88.9%)
+
+ 62%|██████▏   | 31/50 [05:15<02:44,  8.64s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 82
+INFO:root:# successes: 73 (89.0%)
+
+ 64%|██████▍   | 32/50 [05:23<02:31,  8.44s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 83
+INFO:root:# successes: 74 (89.2%)
+
+ 66%|██████▌   | 33/50 [05:31<02:22,  8.38s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 84
+INFO:root:# successes: 75 (89.3%)
+
+ 68%|██████▊   | 34/50 [05:40<02:16,  8.54s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 85
+INFO:root:# successes: 76 (89.4%)
+
+ 70%|███████   | 35/50 [05:53<02:24,  9.65s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 86
+INFO:root:# successes: 76 (88.4%)
+
+ 72%|███████▏  | 36/50 [06:07<02:35, 11.08s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 87
+INFO:root:# successes: 76 (87.4%)
+
+ 74%|███████▍  | 37/50 [06:21<02:34, 11.89s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 88
+INFO:root:# successes: 77 (87.5%)
+
+ 76%|███████▌  | 38/50 [06:30<02:13, 11.14s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 89
+INFO:root:# successes: 78 (87.6%)
+
+ 78%|███████▊  | 39/50 [06:39<01:54, 10.37s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 90
+INFO:root:# successes: 79 (87.8%)
+
+ 80%|████████  | 40/50 [06:49<01:43, 10.34s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 91
+INFO:root:# successes: 80 (87.9%)
+
+ 82%|████████▏ | 41/50 [06:57<01:27,  9.68s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 92
+INFO:root:# successes: 81 (88.0%)
+
+ 84%|████████▍ | 42/50 [07:05<01:12,  9.01s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 93
+INFO:root:# successes: 82 (88.2%)
+
+ 86%|████████▌ | 43/50 [07:15<01:05,  9.35s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 94
+INFO:root:# successes: 83 (88.3%)
+
+ 88%|████████▊ | 44/50 [07:23<00:54,  9.05s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 95
+INFO:root:# successes: 84 (88.4%)
+
+ 90%|█████████ | 45/50 [07:31<00:43,  8.75s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 96
+INFO:root:# successes: 85 (88.5%)
+
+ 92%|█████████▏| 46/50 [07:39<00:34,  8.56s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 97
+INFO:root:# successes: 85 (87.6%)
+
+ 94%|█████████▍| 47/50 [07:53<00:30, 10.12s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 98
+INFO:root:# successes: 86 (87.8%)
+
+ 96%|█████████▌| 48/50 [08:02<00:19,  9.71s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 99
+INFO:root:# successes: 87 (87.9%)
+
+ 98%|█████████▊| 49/50 [08:10<00:09,  9.40s/it][AINFO:root:
+Task: pick up the black bowl next to the ramekin and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 100
+INFO:root:# successes: 88 (88.0%)
+
+100%|██████████| 50/50 [08:18<00:00,  8.79s/it][A100%|██████████| 50/50 [08:18<00:00,  9.97s/it]
+INFO:root:Current task success rate: 0.8
+INFO:root:Current total success rate: 0.88
+ 20%|██        | 2/10 [14:35<59:50, 448.82s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 101
+INFO:root:# successes: 88 (87.1%)
+
+  2%|▏         | 1/50 [00:13<11:23, 13.95s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 102
+INFO:root:# successes: 89 (87.3%)
+
+  4%|▍         | 2/50 [00:20<07:53,  9.86s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 103
+INFO:root:# successes: 90 (87.4%)
+
+  6%|▌         | 3/50 [00:30<07:36,  9.72s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 104
+INFO:root:# successes: 90 (86.5%)
+
+  8%|▊         | 4/50 [00:44<08:46, 11.45s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 105
+INFO:root:# successes: 91 (86.7%)
+
+ 10%|█         | 5/50 [00:52<07:41, 10.25s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 106
+INFO:root:# successes: 92 (86.8%)
+
+ 12%|█▏        | 6/50 [01:01<07:08,  9.74s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 107
+INFO:root:# successes: 93 (86.9%)
+
+ 14%|█▍        | 7/50 [01:08<06:26,  8.98s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 108
+INFO:root:# successes: 94 (87.0%)
+
+ 16%|█▌        | 8/50 [01:17<06:06,  8.73s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 109
+INFO:root:# successes: 95 (87.2%)
+
+ 18%|█▊        | 9/50 [01:24<05:42,  8.35s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 110
+INFO:root:# successes: 96 (87.3%)
+
+ 20%|██        | 10/50 [01:31<05:19,  7.98s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 111
+INFO:root:# successes: 96 (86.5%)
+
+ 22%|██▏       | 11/50 [01:45<06:23,  9.82s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 112
+INFO:root:# successes: 96 (85.7%)
+
+ 24%|██▍       | 12/50 [01:59<06:59, 11.03s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 113
+INFO:root:# successes: 97 (85.8%)
+
+ 26%|██▌       | 13/50 [02:07<06:15, 10.15s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 114
+INFO:root:# successes: 98 (86.0%)
+
+ 28%|██▊       | 14/50 [02:14<05:29,  9.15s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 115
+INFO:root:# successes: 99 (86.1%)
+
+ 30%|███       | 15/50 [02:21<04:59,  8.57s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 116
+INFO:root:# successes: 100 (86.2%)
+
+ 32%|███▏      | 16/50 [02:35<05:41, 10.05s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 117
+INFO:root:# successes: 101 (86.3%)
+
+ 34%|███▍      | 17/50 [02:42<05:08,  9.34s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 118
+INFO:root:# successes: 102 (86.4%)
+
+ 36%|███▌      | 18/50 [02:50<04:40,  8.77s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 119
+INFO:root:# successes: 103 (86.6%)
+
+ 38%|███▊      | 19/50 [02:58<04:25,  8.56s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 120
+INFO:root:# successes: 103 (85.8%)
+
+ 40%|████      | 20/50 [03:12<05:07, 10.24s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 121
+INFO:root:# successes: 104 (86.0%)
+
+ 42%|████▏     | 21/50 [03:20<04:34,  9.47s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 122
+INFO:root:# successes: 105 (86.1%)
+
+ 44%|████▍     | 22/50 [03:29<04:23,  9.43s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 123
+INFO:root:# successes: 106 (86.2%)
+
+ 46%|████▌     | 23/50 [03:36<03:56,  8.75s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 124
+INFO:root:# successes: 107 (86.3%)
+
+ 48%|████▊     | 24/50 [03:47<04:00,  9.25s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 125
+INFO:root:# successes: 108 (86.4%)
+
+ 50%|█████     | 25/50 [03:55<03:43,  8.92s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 126
+INFO:root:# successes: 109 (86.5%)
+
+ 52%|█████▏    | 26/50 [04:02<03:24,  8.53s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 127
+INFO:root:# successes: 110 (86.6%)
+
+ 54%|█████▍    | 27/50 [04:10<03:06,  8.12s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 128
+INFO:root:# successes: 111 (86.7%)
+
+ 56%|█████▌    | 28/50 [04:17<02:53,  7.90s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 129
+INFO:root:# successes: 112 (86.8%)
+
+ 58%|█████▊    | 29/50 [04:24<02:40,  7.64s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 130
+INFO:root:# successes: 113 (86.9%)
+
+ 60%|██████    | 30/50 [04:31<02:31,  7.59s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 131
+INFO:root:# successes: 114 (87.0%)
+
+ 62%|██████▏   | 31/50 [04:42<02:40,  8.46s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 132
+INFO:root:# successes: 115 (87.1%)
+
+ 64%|██████▍   | 32/50 [04:54<02:53,  9.65s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 133
+INFO:root:# successes: 115 (86.5%)
+
+ 66%|██████▌   | 33/50 [05:09<03:09, 11.12s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 134
+INFO:root:# successes: 116 (86.6%)
+
+ 68%|██████▊   | 34/50 [05:16<02:40, 10.01s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 135
+INFO:root:# successes: 116 (85.9%)
+
+ 70%|███████   | 35/50 [05:31<02:48, 11.26s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 136
+INFO:root:# successes: 117 (86.0%)
+
+ 72%|███████▏  | 36/50 [05:38<02:20, 10.07s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 137
+INFO:root:# successes: 118 (86.1%)
+
+ 74%|███████▍  | 37/50 [05:46<02:04,  9.60s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 138
+INFO:root:# successes: 119 (86.2%)
+
+ 76%|███████▌  | 38/50 [05:54<01:47,  8.98s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 139
+INFO:root:# successes: 120 (86.3%)
+
+ 78%|███████▊  | 39/50 [06:01<01:33,  8.49s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 140
+INFO:root:# successes: 121 (86.4%)
+
+ 80%|████████  | 40/50 [06:09<01:21,  8.13s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 141
+INFO:root:# successes: 122 (86.5%)
+
+ 82%|████████▏ | 41/50 [06:16<01:11,  7.91s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 142
+INFO:root:# successes: 123 (86.6%)
+
+ 84%|████████▍ | 42/50 [06:23<01:02,  7.77s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 143
+INFO:root:# successes: 124 (86.7%)
+
+ 86%|████████▌ | 43/50 [06:31<00:53,  7.63s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 144
+INFO:root:# successes: 125 (86.8%)
+
+ 88%|████████▊ | 44/50 [06:38<00:44,  7.42s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 145
+INFO:root:# successes: 126 (86.9%)
+
+ 90%|█████████ | 45/50 [06:45<00:37,  7.47s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 146
+INFO:root:# successes: 127 (87.0%)
+
+ 92%|█████████▏| 46/50 [06:52<00:29,  7.41s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 147
+INFO:root:# successes: 128 (87.1%)
+
+ 94%|█████████▍| 47/50 [07:00<00:22,  7.35s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 148
+INFO:root:# successes: 129 (87.2%)
+
+ 96%|█████████▌| 48/50 [07:10<00:16,  8.14s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 149
+INFO:root:# successes: 130 (87.2%)
+
+ 98%|█████████▊| 49/50 [07:17<00:07,  7.97s/it][AINFO:root:
+Task: pick up the black bowl from table center and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 150
+INFO:root:# successes: 131 (87.3%)
+
+100%|██████████| 50/50 [07:24<00:00,  7.71s/it][A100%|██████████| 50/50 [07:24<00:00,  8.90s/it]
+INFO:root:Current task success rate: 0.86
+INFO:root:Current total success rate: 0.8733333333333333
+ 30%|███       | 3/10 [22:01<52:12, 447.54s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 151
+INFO:root:# successes: 132 (87.4%)
+
+  2%|▏         | 1/50 [00:09<07:39,  9.38s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 152
+INFO:root:# successes: 133 (87.5%)
+
+  4%|▍         | 2/50 [00:15<06:05,  7.62s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 153
+INFO:root:# successes: 134 (87.6%)
+
+  6%|▌         | 3/50 [00:22<05:34,  7.11s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 154
+INFO:root:# successes: 135 (87.7%)
+
+  8%|▊         | 4/50 [00:29<05:30,  7.18s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 155
+INFO:root:# successes: 136 (87.7%)
+
+ 10%|█         | 5/50 [00:36<05:26,  7.25s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 156
+INFO:root:# successes: 137 (87.8%)
+
+ 12%|█▏        | 6/50 [00:43<05:12,  7.10s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 157
+INFO:root:# successes: 138 (87.9%)
+
+ 14%|█▍        | 7/50 [00:50<04:59,  6.97s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 158
+INFO:root:# successes: 139 (88.0%)
+
+ 16%|█▌        | 8/50 [00:57<04:51,  6.93s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 159
+INFO:root:# successes: 140 (88.1%)
+
+ 18%|█▊        | 9/50 [01:04<04:50,  7.09s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 160
+INFO:root:# successes: 141 (88.1%)
+
+ 20%|██        | 10/50 [01:12<04:49,  7.23s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 161
+INFO:root:# successes: 142 (88.2%)
+
+ 22%|██▏       | 11/50 [01:19<04:40,  7.20s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 162
+INFO:root:# successes: 143 (88.3%)
+
+ 24%|██▍       | 12/50 [01:26<04:32,  7.18s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 163
+INFO:root:# successes: 144 (88.3%)
+
+ 26%|██▌       | 13/50 [01:33<04:22,  7.09s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 164
+INFO:root:# successes: 144 (87.8%)
+
+ 28%|██▊       | 14/50 [01:47<05:30,  9.18s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 165
+INFO:root:# successes: 145 (87.9%)
+
+ 30%|███       | 15/50 [01:54<05:00,  8.60s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 166
+INFO:root:# successes: 146 (88.0%)
+
+ 32%|███▏      | 16/50 [02:00<04:27,  7.88s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 167
+INFO:root:# successes: 147 (88.0%)
+
+ 34%|███▍      | 17/50 [02:07<04:06,  7.48s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 168
+INFO:root:# successes: 148 (88.1%)
+
+ 36%|███▌      | 18/50 [02:15<04:01,  7.55s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 169
+INFO:root:# successes: 149 (88.2%)
+
+ 38%|███▊      | 19/50 [02:21<03:46,  7.32s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 170
+INFO:root:# successes: 150 (88.2%)
+
+ 40%|████      | 20/50 [02:28<03:34,  7.14s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 171
+INFO:root:# successes: 151 (88.3%)
+
+ 42%|████▏     | 21/50 [02:35<03:24,  7.05s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 172
+INFO:root:# successes: 152 (88.4%)
+
+ 44%|████▍     | 22/50 [02:42<03:20,  7.15s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 173
+INFO:root:# successes: 153 (88.4%)
+
+ 46%|████▌     | 23/50 [02:49<03:05,  6.89s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 174
+INFO:root:# successes: 154 (88.5%)
+
+ 48%|████▊     | 24/50 [02:56<03:00,  6.94s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 175
+INFO:root:# successes: 155 (88.6%)
+
+ 50%|█████     | 25/50 [03:07<03:25,  8.23s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 176
+INFO:root:# successes: 156 (88.6%)
+
+ 52%|█████▏    | 26/50 [03:14<03:06,  7.77s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 177
+INFO:root:# successes: 157 (88.7%)
+
+ 54%|█████▍    | 27/50 [03:21<02:53,  7.56s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 178
+INFO:root:# successes: 158 (88.8%)
+
+ 56%|█████▌    | 28/50 [03:28<02:41,  7.33s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 179
+INFO:root:# successes: 159 (88.8%)
+
+ 58%|█████▊    | 29/50 [03:34<02:31,  7.20s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 180
+INFO:root:# successes: 160 (88.9%)
+
+ 60%|██████    | 30/50 [03:41<02:21,  7.06s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 181
+INFO:root:# successes: 161 (89.0%)
+
+ 62%|██████▏   | 31/50 [03:48<02:13,  7.04s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 182
+INFO:root:# successes: 162 (89.0%)
+
+ 64%|██████▍   | 32/50 [03:56<02:08,  7.16s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 183
+INFO:root:# successes: 163 (89.1%)
+
+ 66%|██████▌   | 33/50 [04:03<02:01,  7.12s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 184
+INFO:root:# successes: 164 (89.1%)
+
+ 68%|██████▊   | 34/50 [04:12<02:03,  7.75s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 185
+INFO:root:# successes: 165 (89.2%)
+
+ 70%|███████   | 35/50 [04:19<01:52,  7.48s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 186
+INFO:root:# successes: 166 (89.2%)
+
+ 72%|███████▏  | 36/50 [04:26<01:41,  7.28s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 187
+INFO:root:# successes: 167 (89.3%)
+
+ 74%|███████▍  | 37/50 [04:36<01:46,  8.18s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 188
+INFO:root:# successes: 168 (89.4%)
+
+ 76%|███████▌  | 38/50 [04:43<01:33,  7.79s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 189
+INFO:root:# successes: 169 (89.4%)
+
+ 78%|███████▊  | 39/50 [04:49<01:21,  7.45s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 190
+INFO:root:# successes: 170 (89.5%)
+
+ 80%|████████  | 40/50 [04:56<01:11,  7.14s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 191
+INFO:root:# successes: 171 (89.5%)
+
+ 82%|████████▏ | 41/50 [05:08<01:18,  8.68s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 192
+INFO:root:# successes: 172 (89.6%)
+
+ 84%|████████▍ | 42/50 [05:14<01:03,  7.97s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 193
+INFO:root:# successes: 173 (89.6%)
+
+ 86%|████████▌ | 43/50 [05:21<00:52,  7.51s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 194
+INFO:root:# successes: 173 (89.2%)
+
+ 88%|████████▊ | 44/50 [05:35<00:56,  9.46s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 195
+INFO:root:# successes: 174 (89.2%)
+
+ 90%|█████████ | 45/50 [05:42<00:43,  8.72s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 196
+INFO:root:# successes: 175 (89.3%)
+
+ 92%|█████████▏| 46/50 [05:48<00:32,  8.08s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 197
+INFO:root:# successes: 176 (89.3%)
+
+ 94%|█████████▍| 47/50 [05:56<00:23,  7.87s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 198
+INFO:root:# successes: 177 (89.4%)
+
+ 96%|█████████▌| 48/50 [06:02<00:14,  7.49s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 199
+INFO:root:# successes: 178 (89.4%)
+
+ 98%|█████████▊| 49/50 [06:09<00:07,  7.37s/it][AINFO:root:
+Task: pick up the black bowl on the cookie box and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 200
+INFO:root:# successes: 179 (89.5%)
+
+100%|██████████| 50/50 [06:19<00:00,  8.03s/it][A100%|██████████| 50/50 [06:19<00:00,  7.59s/it]
+INFO:root:Current task success rate: 0.96
+INFO:root:Current total success rate: 0.895
+ 40%|████      | 4/10 [28:22<42:06, 421.14s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 201
+INFO:root:# successes: 179 (89.1%)
+
+  2%|▏         | 1/50 [00:14<11:38, 14.25s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 202
+INFO:root:# successes: 180 (89.1%)
+
+  4%|▍         | 2/50 [00:22<08:45, 10.95s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 203
+INFO:root:# successes: 181 (89.2%)
+
+  6%|▌         | 3/50 [00:31<07:38,  9.75s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 204
+INFO:root:# successes: 181 (88.7%)
+
+  8%|▊         | 4/50 [00:46<09:03, 11.82s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 205
+INFO:root:# successes: 182 (88.8%)
+
+ 10%|█         | 5/50 [00:55<08:17, 11.05s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 206
+INFO:root:# successes: 183 (88.8%)
+
+ 12%|█▏        | 6/50 [01:04<07:27, 10.16s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 207
+INFO:root:# successes: 184 (88.9%)
+
+ 14%|█▍        | 7/50 [01:13<06:59,  9.75s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 208
+INFO:root:# successes: 185 (88.9%)
+
+ 16%|█▌        | 8/50 [01:22<06:39,  9.51s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 209
+INFO:root:# successes: 185 (88.5%)
+
+ 18%|█▊        | 9/50 [01:36<07:35, 11.11s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 210
+INFO:root:# successes: 186 (88.6%)
+
+ 20%|██        | 10/50 [01:46<07:00, 10.52s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 211
+INFO:root:# successes: 186 (88.2%)
+
+ 22%|██▏       | 11/50 [02:00<07:40, 11.82s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 212
+INFO:root:# successes: 187 (88.2%)
+
+ 24%|██▍       | 12/50 [02:09<06:55, 10.95s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 213
+INFO:root:# successes: 188 (88.3%)
+
+ 26%|██▌       | 13/50 [02:18<06:21, 10.32s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 214
+INFO:root:# successes: 188 (87.9%)
+
+ 28%|██▊       | 14/50 [02:33<06:57, 11.59s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 215
+INFO:root:# successes: 189 (87.9%)
+
+ 30%|███       | 15/50 [02:42<06:26, 11.03s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 216
+INFO:root:# successes: 190 (88.0%)
+
+ 32%|███▏      | 16/50 [02:51<05:54, 10.43s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 217
+INFO:root:# successes: 190 (87.6%)
+
+ 34%|███▍      | 17/50 [03:06<06:26, 11.71s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 218
+INFO:root:# successes: 191 (87.6%)
+
+ 36%|███▌      | 18/50 [03:16<05:52, 11.02s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 219
+INFO:root:# successes: 192 (87.7%)
+
+ 38%|███▊      | 19/50 [03:23<05:13, 10.10s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 220
+INFO:root:# successes: 193 (87.7%)
+
+ 40%|████      | 20/50 [03:32<04:51,  9.70s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 221
+INFO:root:# successes: 193 (87.3%)
+
+ 42%|████▏     | 21/50 [03:47<05:25, 11.24s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 222
+INFO:root:# successes: 194 (87.4%)
+
+ 44%|████▍     | 22/50 [03:56<04:52, 10.43s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 223
+INFO:root:# successes: 195 (87.4%)
+
+ 46%|████▌     | 23/50 [04:04<04:28,  9.94s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 224
+INFO:root:# successes: 196 (87.5%)
+
+ 48%|████▊     | 24/50 [04:14<04:12,  9.72s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 225
+INFO:root:# successes: 197 (87.6%)
+
+ 50%|█████     | 25/50 [04:22<03:54,  9.38s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 226
+INFO:root:# successes: 197 (87.2%)
+
+ 52%|█████▏    | 26/50 [04:37<04:23, 10.99s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 227
+INFO:root:# successes: 197 (86.8%)
+
+ 54%|█████▍    | 27/50 [04:52<04:39, 12.16s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 228
+INFO:root:# successes: 197 (86.4%)
+
+ 56%|█████▌    | 28/50 [05:07<04:44, 12.92s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 229
+INFO:root:# successes: 198 (86.5%)
+
+ 58%|█████▊    | 29/50 [05:15<04:03, 11.58s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 230
+INFO:root:# successes: 198 (86.1%)
+
+ 60%|██████    | 30/50 [05:30<04:09, 12.48s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 231
+INFO:root:# successes: 198 (85.7%)
+
+ 62%|██████▏   | 31/50 [05:44<04:08, 13.10s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 232
+INFO:root:# successes: 199 (85.8%)
+
+ 64%|██████▍   | 32/50 [05:56<03:48, 12.72s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 233
+INFO:root:# successes: 200 (85.8%)
+
+ 66%|██████▌   | 33/50 [06:05<03:15, 11.47s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 234
+INFO:root:# successes: 200 (85.5%)
+
+ 68%|██████▊   | 34/50 [06:19<03:18, 12.38s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 235
+INFO:root:# successes: 201 (85.5%)
+
+ 70%|███████   | 35/50 [06:28<02:50, 11.34s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 236
+INFO:root:# successes: 202 (85.6%)
+
+ 72%|███████▏  | 36/50 [06:36<02:24, 10.30s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 237
+INFO:root:# successes: 203 (85.7%)
+
+ 74%|███████▍  | 37/50 [06:45<02:09,  9.95s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 238
+INFO:root:# successes: 204 (85.7%)
+
+ 76%|███████▌  | 38/50 [06:54<01:57,  9.77s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 239
+INFO:root:# successes: 204 (85.4%)
+
+ 78%|███████▊  | 39/50 [07:09<02:03, 11.24s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 240
+INFO:root:# successes: 205 (85.4%)
+
+ 80%|████████  | 40/50 [07:18<01:45, 10.52s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 241
+INFO:root:# successes: 206 (85.5%)
+
+ 82%|████████▏ | 41/50 [07:27<01:29,  9.99s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 242
+INFO:root:# successes: 207 (85.5%)
+
+ 84%|████████▍ | 42/50 [07:35<01:17,  9.67s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 243
+INFO:root:# successes: 208 (85.6%)
+
+ 86%|████████▌ | 43/50 [07:44<01:05,  9.34s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 244
+INFO:root:# successes: 208 (85.2%)
+
+ 88%|████████▊ | 44/50 [07:59<01:05, 10.96s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 245
+INFO:root:# successes: 208 (84.9%)
+
+ 90%|█████████ | 45/50 [08:14<01:00, 12.15s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 246
+INFO:root:# successes: 209 (85.0%)
+
+ 92%|█████████▏| 46/50 [08:23<00:45, 11.36s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 247
+INFO:root:# successes: 210 (85.0%)
+
+ 94%|█████████▍| 47/50 [08:32<00:31, 10.52s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 248
+INFO:root:# successes: 210 (84.7%)
+
+ 96%|█████████▌| 48/50 [08:47<00:23, 11.82s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 249
+INFO:root:# successes: 211 (84.7%)
+
+ 98%|█████████▊| 49/50 [08:56<00:11, 11.02s/it][AINFO:root:
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 250
+INFO:root:# successes: 212 (84.8%)
+
+100%|██████████| 50/50 [09:05<00:00, 10.37s/it][A100%|██████████| 50/50 [09:05<00:00, 10.90s/it]
+INFO:root:Current task success rate: 0.66
+INFO:root:Current total success rate: 0.848
+ 50%|█████     | 5/10 [37:28<38:51, 466.26s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 251
+INFO:root:# successes: 213 (84.9%)
+
+  2%|▏         | 1/50 [00:08<06:52,  8.41s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 252
+INFO:root:# successes: 214 (84.9%)
+
+  4%|▍         | 2/50 [00:15<05:59,  7.49s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 253
+INFO:root:# successes: 215 (85.0%)
+
+  6%|▌         | 3/50 [00:22<05:49,  7.43s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 254
+INFO:root:# successes: 216 (85.0%)
+
+  8%|▊         | 4/50 [00:30<05:47,  7.55s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 255
+INFO:root:# successes: 217 (85.1%)
+
+ 10%|█         | 5/50 [00:38<05:46,  7.70s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 256
+INFO:root:# successes: 218 (85.2%)
+
+ 12%|█▏        | 6/50 [00:46<05:44,  7.83s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 257
+INFO:root:# successes: 219 (85.2%)
+
+ 14%|█▍        | 7/50 [00:53<05:25,  7.57s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 258
+INFO:root:# successes: 220 (85.3%)
+
+ 16%|█▌        | 8/50 [01:01<05:21,  7.66s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 259
+INFO:root:# successes: 220 (84.9%)
+
+ 18%|█▊        | 9/50 [01:15<06:44,  9.86s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 260
+INFO:root:# successes: 221 (85.0%)
+
+ 20%|██        | 10/50 [01:23<06:10,  9.25s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 261
+INFO:root:# successes: 222 (85.1%)
+
+ 22%|██▏       | 11/50 [01:31<05:41,  8.75s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 262
+INFO:root:# successes: 223 (85.1%)
+
+ 24%|██▍       | 12/50 [01:38<05:14,  8.29s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 263
+INFO:root:# successes: 224 (85.2%)
+
+ 26%|██▌       | 13/50 [01:47<05:10,  8.39s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 264
+INFO:root:# successes: 225 (85.2%)
+
+ 28%|██▊       | 14/50 [01:54<04:52,  8.13s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 265
+INFO:root:# successes: 226 (85.3%)
+
+ 30%|███       | 15/50 [02:02<04:38,  7.96s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 266
+INFO:root:# successes: 227 (85.3%)
+
+ 32%|███▏      | 16/50 [02:10<04:29,  7.92s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 267
+INFO:root:# successes: 228 (85.4%)
+
+ 34%|███▍      | 17/50 [02:18<04:24,  8.02s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 268
+INFO:root:# successes: 229 (85.4%)
+
+ 36%|███▌      | 18/50 [02:26<04:13,  7.91s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 269
+INFO:root:# successes: 229 (85.1%)
+
+ 38%|███▊      | 19/50 [02:40<05:03,  9.78s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 270
+INFO:root:# successes: 230 (85.2%)
+
+ 40%|████      | 20/50 [02:49<04:47,  9.60s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 271
+INFO:root:# successes: 231 (85.2%)
+
+ 42%|████▏     | 21/50 [02:56<04:18,  8.92s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 272
+INFO:root:# successes: 232 (85.3%)
+
+ 44%|████▍     | 22/50 [03:04<04:03,  8.69s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 273
+INFO:root:# successes: 232 (85.0%)
+
+ 46%|████▌     | 23/50 [03:19<04:40, 10.39s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 274
+INFO:root:# successes: 233 (85.0%)
+
+ 48%|████▊     | 24/50 [03:26<04:08,  9.56s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 275
+INFO:root:# successes: 234 (85.1%)
+
+ 50%|█████     | 25/50 [03:33<03:36,  8.68s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 276
+INFO:root:# successes: 235 (85.1%)
+
+ 52%|█████▏    | 26/50 [03:40<03:12,  8.00s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 277
+INFO:root:# successes: 236 (85.2%)
+
+ 54%|█████▍    | 27/50 [03:49<03:11,  8.34s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 278
+INFO:root:# successes: 236 (84.9%)
+
+ 56%|█████▌    | 28/50 [04:03<03:45, 10.25s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 279
+INFO:root:# successes: 237 (84.9%)
+
+ 58%|█████▊    | 29/50 [04:11<03:21,  9.61s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 280
+INFO:root:# successes: 238 (85.0%)
+
+ 60%|██████    | 30/50 [04:19<02:59,  9.00s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 281
+INFO:root:# successes: 239 (85.1%)
+
+ 62%|██████▏   | 31/50 [04:28<02:50,  8.98s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 282
+INFO:root:# successes: 240 (85.1%)
+
+ 64%|██████▍   | 32/50 [04:36<02:35,  8.65s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 283
+INFO:root:# successes: 241 (85.2%)
+
+ 66%|██████▌   | 33/50 [04:44<02:22,  8.40s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 284
+INFO:root:# successes: 241 (84.9%)
+
+ 68%|██████▊   | 34/50 [04:58<02:43, 10.24s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 285
+INFO:root:# successes: 242 (84.9%)
+
+ 70%|███████   | 35/50 [05:06<02:21,  9.40s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 286
+INFO:root:# successes: 243 (85.0%)
+
+ 72%|███████▏  | 36/50 [05:14<02:08,  9.21s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 287
+INFO:root:# successes: 244 (85.0%)
+
+ 74%|███████▍  | 37/50 [05:23<01:57,  9.02s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 288
+INFO:root:# successes: 245 (85.1%)
+
+ 76%|███████▌  | 38/50 [05:31<01:44,  8.74s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 289
+INFO:root:# successes: 245 (84.8%)
+
+ 78%|███████▊  | 39/50 [05:46<01:55, 10.49s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 290
+INFO:root:# successes: 245 (84.5%)
+
+ 80%|████████  | 40/50 [06:00<01:56, 11.69s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 291
+INFO:root:# successes: 246 (84.5%)
+
+ 82%|████████▏ | 41/50 [06:14<01:50, 12.27s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 292
+INFO:root:# successes: 247 (84.6%)
+
+ 84%|████████▍ | 42/50 [06:22<01:27, 10.95s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 293
+INFO:root:# successes: 248 (84.6%)
+
+ 86%|████████▌ | 43/50 [06:30<01:10, 10.04s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 294
+INFO:root:# successes: 249 (84.7%)
+
+ 88%|████████▊ | 44/50 [06:36<00:53,  8.94s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 295
+INFO:root:# successes: 250 (84.7%)
+
+ 90%|█████████ | 45/50 [06:43<00:41,  8.34s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 296
+INFO:root:# successes: 251 (84.8%)
+
+ 92%|█████████▏| 46/50 [06:54<00:36,  9.14s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 297
+INFO:root:# successes: 252 (84.8%)
+
+ 94%|█████████▍| 47/50 [07:01<00:25,  8.48s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 298
+INFO:root:# successes: 253 (84.9%)
+
+ 96%|█████████▌| 48/50 [07:08<00:16,  8.12s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 299
+INFO:root:# successes: 254 (84.9%)
+
+ 98%|█████████▊| 49/50 [07:16<00:08,  8.10s/it][AINFO:root:
+Task: pick up the black bowl on the ramekin and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 300
+INFO:root:# successes: 255 (85.0%)
+
+100%|██████████| 50/50 [07:24<00:00,  7.99s/it][A100%|██████████| 50/50 [07:24<00:00,  8.89s/it]
+INFO:root:Current task success rate: 0.86
+INFO:root:Current total success rate: 0.85
+ 60%|██████    | 6/10 [44:54<30:36, 459.21s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 301
+INFO:root:# successes: 256 (85.0%)
+
+  2%|▏         | 1/50 [00:08<06:51,  8.40s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 302
+INFO:root:# successes: 257 (85.1%)
+
+  4%|▍         | 2/50 [00:16<06:30,  8.14s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 303
+INFO:root:# successes: 258 (85.1%)
+
+  6%|▌         | 3/50 [00:23<06:07,  7.82s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 304
+INFO:root:# successes: 258 (84.9%)
+
+  8%|▊         | 4/50 [00:37<07:48, 10.19s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 305
+INFO:root:# successes: 259 (84.9%)
+
+ 10%|█         | 5/50 [00:45<07:01,  9.36s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 306
+INFO:root:# successes: 260 (85.0%)
+
+ 12%|█▏        | 6/50 [00:53<06:29,  8.85s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 307
+INFO:root:# successes: 261 (85.0%)
+
+ 14%|█▍        | 7/50 [01:01<06:09,  8.60s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 308
+INFO:root:# successes: 262 (85.1%)
+
+ 16%|█▌        | 8/50 [01:08<05:37,  8.05s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 309
+INFO:root:# successes: 263 (85.1%)
+
+ 18%|█▊        | 9/50 [01:16<05:33,  8.14s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 310
+INFO:root:# successes: 264 (85.2%)
+
+ 20%|██        | 10/50 [01:24<05:17,  7.93s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 311
+INFO:root:# successes: 265 (85.2%)
+
+ 22%|██▏       | 11/50 [01:32<05:09,  7.93s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 312
+INFO:root:# successes: 266 (85.3%)
+
+ 24%|██▍       | 12/50 [01:39<04:55,  7.78s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 313
+INFO:root:# successes: 267 (85.3%)
+
+ 26%|██▌       | 13/50 [01:47<04:49,  7.83s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 314
+INFO:root:# successes: 268 (85.4%)
+
+ 28%|██▊       | 14/50 [01:57<05:04,  8.45s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 315
+INFO:root:# successes: 269 (85.4%)
+
+ 30%|███       | 15/50 [02:05<04:52,  8.36s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 316
+INFO:root:# successes: 270 (85.4%)
+
+ 32%|███▏      | 16/50 [02:13<04:42,  8.31s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 317
+INFO:root:# successes: 271 (85.5%)
+
+ 34%|███▍      | 17/50 [02:20<04:23,  8.00s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 318
+INFO:root:# successes: 272 (85.5%)
+
+ 36%|███▌      | 18/50 [02:28<04:07,  7.74s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 319
+INFO:root:# successes: 273 (85.6%)
+
+ 38%|███▊      | 19/50 [02:35<03:58,  7.69s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 320
+INFO:root:# successes: 274 (85.6%)
+
+ 40%|████      | 20/50 [02:43<03:48,  7.62s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 321
+INFO:root:# successes: 275 (85.7%)
+
+ 42%|████▏     | 21/50 [02:51<03:44,  7.74s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 322
+INFO:root:# successes: 276 (85.7%)
+
+ 44%|████▍     | 22/50 [02:58<03:37,  7.78s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 323
+INFO:root:# successes: 277 (85.8%)
+
+ 46%|████▌     | 23/50 [03:06<03:31,  7.82s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 324
+INFO:root:# successes: 278 (85.8%)
+
+ 48%|████▊     | 24/50 [03:15<03:27,  7.97s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 325
+INFO:root:# successes: 279 (85.8%)
+
+ 50%|█████     | 25/50 [03:22<03:14,  7.80s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 326
+INFO:root:# successes: 280 (85.9%)
+
+ 52%|█████▏    | 26/50 [03:30<03:11,  7.96s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 327
+INFO:root:# successes: 281 (85.9%)
+
+ 54%|█████▍    | 27/50 [03:40<03:15,  8.50s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 328
+INFO:root:# successes: 282 (86.0%)
+
+ 56%|█████▌    | 28/50 [03:48<03:00,  8.20s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 329
+INFO:root:# successes: 283 (86.0%)
+
+ 58%|█████▊    | 29/50 [03:55<02:49,  8.06s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 330
+INFO:root:# successes: 284 (86.1%)
+
+ 60%|██████    | 30/50 [04:04<02:47,  8.36s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 331
+INFO:root:# successes: 285 (86.1%)
+
+ 62%|██████▏   | 31/50 [04:13<02:40,  8.47s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 332
+INFO:root:# successes: 286 (86.1%)
+
+ 64%|██████▍   | 32/50 [04:21<02:26,  8.16s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 333
+INFO:root:# successes: 287 (86.2%)
+
+ 66%|██████▌   | 33/50 [04:29<02:18,  8.15s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 334
+INFO:root:# successes: 288 (86.2%)
+
+ 68%|██████▊   | 34/50 [04:37<02:11,  8.23s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 335
+INFO:root:# successes: 288 (86.0%)
+
+ 70%|███████   | 35/50 [04:51<02:28,  9.91s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 336
+INFO:root:# successes: 288 (85.7%)
+
+ 72%|███████▏  | 36/50 [05:06<02:38, 11.35s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 337
+INFO:root:# successes: 288 (85.5%)
+
+ 74%|███████▍  | 37/50 [05:20<02:39, 12.28s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 338
+INFO:root:# successes: 289 (85.5%)
+
+ 76%|███████▌  | 38/50 [05:29<02:14, 11.22s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 339
+INFO:root:# successes: 290 (85.5%)
+
+ 78%|███████▊  | 39/50 [05:38<01:55, 10.47s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 340
+INFO:root:# successes: 291 (85.6%)
+
+ 80%|████████  | 40/50 [05:45<01:36,  9.64s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 341
+INFO:root:# successes: 292 (85.6%)
+
+ 82%|████████▏ | 41/50 [05:53<01:21,  9.04s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 342
+INFO:root:# successes: 292 (85.4%)
+
+ 84%|████████▍ | 42/50 [06:08<01:25, 10.75s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 343
+INFO:root:# successes: 293 (85.4%)
+
+ 86%|████████▌ | 43/50 [06:16<01:09,  9.92s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 344
+INFO:root:# successes: 294 (85.5%)
+
+ 88%|████████▊ | 44/50 [06:23<00:54,  9.16s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 345
+INFO:root:# successes: 295 (85.5%)
+
+ 90%|█████████ | 45/50 [06:30<00:42,  8.60s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 346
+INFO:root:# successes: 296 (85.5%)
+
+ 92%|█████████▏| 46/50 [06:39<00:34,  8.51s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 347
+INFO:root:# successes: 296 (85.3%)
+
+ 94%|█████████▍| 47/50 [06:53<00:30, 10.12s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 348
+INFO:root:# successes: 297 (85.3%)
+
+ 96%|█████████▌| 48/50 [07:04<00:21, 10.62s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 349
+INFO:root:# successes: 298 (85.4%)
+
+ 98%|█████████▊| 49/50 [07:13<00:09,  9.88s/it][AINFO:root:
+Task: pick up the black bowl next to the cookie box and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 350
+INFO:root:# successes: 299 (85.4%)
+
+100%|██████████| 50/50 [07:20<00:00,  9.16s/it][A100%|██████████| 50/50 [07:20<00:00,  8.81s/it]
+INFO:root:Current task success rate: 0.88
+INFO:root:Current total success rate: 0.8542857142857143
+ 70%|███████   | 7/10 [52:16<22:40, 453.47s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 351
+INFO:root:# successes: 300 (85.5%)
+
+  2%|▏         | 1/50 [00:09<08:09,  9.99s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 352
+INFO:root:# successes: 301 (85.5%)
+
+  4%|▍         | 2/50 [00:19<07:33,  9.45s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 353
+INFO:root:# successes: 302 (85.6%)
+
+  6%|▌         | 3/50 [00:28<07:14,  9.25s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 354
+INFO:root:# successes: 303 (85.6%)
+
+  8%|▊         | 4/50 [00:37<07:08,  9.32s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 355
+INFO:root:# successes: 304 (85.6%)
+
+ 10%|█         | 5/50 [00:49<07:36, 10.15s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 356
+INFO:root:# successes: 305 (85.7%)
+
+ 12%|█▏        | 6/50 [01:00<07:49, 10.68s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 357
+INFO:root:# successes: 306 (85.7%)
+
+ 14%|█▍        | 7/50 [01:09<07:09,  9.98s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 358
+INFO:root:# successes: 307 (85.8%)
+
+ 16%|█▌        | 8/50 [01:17<06:36,  9.45s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 359
+INFO:root:# successes: 308 (85.8%)
+
+ 18%|█▊        | 9/50 [01:27<06:26,  9.44s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 360
+INFO:root:# successes: 309 (85.8%)
+
+ 20%|██        | 10/50 [01:42<07:35, 11.39s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 361
+INFO:root:# successes: 309 (85.6%)
+
+ 22%|██▏       | 11/50 [01:57<07:59, 12.29s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 362
+INFO:root:# successes: 309 (85.4%)
+
+ 24%|██▍       | 12/50 [02:11<08:15, 13.04s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 363
+INFO:root:# successes: 309 (85.1%)
+
+ 26%|██▌       | 13/50 [02:26<08:24, 13.63s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 364
+INFO:root:# successes: 310 (85.2%)
+
+ 28%|██▊       | 14/50 [02:35<07:11, 11.99s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 365
+INFO:root:# successes: 310 (84.9%)
+
+ 30%|███       | 15/50 [02:51<07:47, 13.35s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 366
+INFO:root:# successes: 311 (85.0%)
+
+ 32%|███▏      | 16/50 [03:02<07:07, 12.57s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 367
+INFO:root:# successes: 312 (85.0%)
+
+ 34%|███▍      | 17/50 [03:11<06:21, 11.56s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 368
+INFO:root:# successes: 313 (85.1%)
+
+ 36%|███▌      | 18/50 [03:20<05:44, 10.77s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 369
+INFO:root:# successes: 313 (84.8%)
+
+ 38%|███▊      | 19/50 [03:36<06:23, 12.37s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 370
+INFO:root:# successes: 314 (84.9%)
+
+ 40%|████      | 20/50 [03:45<05:38, 11.28s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 371
+INFO:root:# successes: 315 (84.9%)
+
+ 42%|████▏     | 21/50 [03:53<04:57, 10.27s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 372
+INFO:root:# successes: 315 (84.7%)
+
+ 44%|████▍     | 22/50 [04:07<05:20, 11.43s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 373
+INFO:root:# successes: 316 (84.7%)
+
+ 46%|████▌     | 23/50 [04:15<04:44, 10.54s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 374
+INFO:root:# successes: 317 (84.8%)
+
+ 48%|████▊     | 24/50 [04:25<04:26, 10.25s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 375
+INFO:root:# successes: 318 (84.8%)
+
+ 50%|█████     | 25/50 [04:34<04:03,  9.74s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 376
+INFO:root:# successes: 319 (84.8%)
+
+ 52%|█████▏    | 26/50 [04:43<03:50,  9.59s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 377
+INFO:root:# successes: 320 (84.9%)
+
+ 54%|█████▍    | 27/50 [04:52<03:38,  9.50s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 378
+INFO:root:# successes: 321 (84.9%)
+
+ 56%|█████▌    | 28/50 [05:03<03:37,  9.87s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 379
+INFO:root:# successes: 322 (85.0%)
+
+ 58%|█████▊    | 29/50 [05:11<03:19,  9.52s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 380
+INFO:root:# successes: 323 (85.0%)
+
+ 60%|██████    | 30/50 [05:21<03:09,  9.47s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 381
+INFO:root:# successes: 324 (85.0%)
+
+ 62%|██████▏   | 31/50 [05:30<02:56,  9.28s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 382
+INFO:root:# successes: 324 (84.8%)
+
+ 64%|██████▍   | 32/50 [05:46<03:25, 11.40s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 383
+INFO:root:# successes: 325 (84.9%)
+
+ 66%|██████▌   | 33/50 [05:54<02:56, 10.37s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 384
+INFO:root:# successes: 326 (84.9%)
+
+ 68%|██████▊   | 34/50 [06:03<02:40, 10.05s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 385
+INFO:root:# successes: 327 (84.9%)
+
+ 70%|███████   | 35/50 [06:12<02:26,  9.77s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 386
+INFO:root:# successes: 328 (85.0%)
+
+ 72%|███████▏  | 36/50 [06:22<02:14,  9.63s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 387
+INFO:root:# successes: 329 (85.0%)
+
+ 74%|███████▍  | 37/50 [06:32<02:07,  9.77s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 388
+INFO:root:# successes: 330 (85.1%)
+
+ 76%|███████▌  | 38/50 [06:41<01:56,  9.68s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 389
+INFO:root:# successes: 331 (85.1%)
+
+ 78%|███████▊  | 39/50 [06:49<01:41,  9.21s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 390
+INFO:root:# successes: 332 (85.1%)
+
+ 80%|████████  | 40/50 [07:00<01:36,  9.70s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 391
+INFO:root:# successes: 332 (84.9%)
+
+ 82%|████████▏ | 41/50 [07:15<01:39, 11.08s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 392
+INFO:root:# successes: 333 (84.9%)
+
+ 84%|████████▍ | 42/50 [07:25<01:26, 10.77s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 393
+INFO:root:# successes: 334 (85.0%)
+
+ 86%|████████▌ | 43/50 [07:34<01:12, 10.34s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 394
+INFO:root:# successes: 335 (85.0%)
+
+ 88%|████████▊ | 44/50 [07:42<00:57,  9.54s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 395
+INFO:root:# successes: 336 (85.1%)
+
+ 90%|█████████ | 45/50 [07:51<00:47,  9.54s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 396
+INFO:root:# successes: 337 (85.1%)
+
+ 92%|█████████▏| 46/50 [08:00<00:37,  9.27s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 397
+INFO:root:# successes: 338 (85.1%)
+
+ 94%|█████████▍| 47/50 [08:08<00:27,  9.03s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 398
+INFO:root:# successes: 339 (85.2%)
+
+ 96%|█████████▌| 48/50 [08:16<00:17,  8.60s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 399
+INFO:root:# successes: 340 (85.2%)
+
+ 98%|█████████▊| 49/50 [08:26<00:09,  9.06s/it][AINFO:root:
+Task: pick up the black bowl on the stove and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 400
+INFO:root:# successes: 340 (85.0%)
+
+100%|██████████| 50/50 [08:40<00:00, 10.70s/it][A100%|██████████| 50/50 [08:40<00:00, 10.42s/it]
+INFO:root:Current task success rate: 0.82
+INFO:root:Current total success rate: 0.85
+ 80%|████████  | 8/10 [1:00:58<15:50, 475.33s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 401
+INFO:root:# successes: 340 (84.8%)
+
+  2%|▏         | 1/50 [00:13<11:18, 13.84s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 402
+INFO:root:# successes: 341 (84.8%)
+
+  4%|▍         | 2/50 [00:20<07:42,  9.64s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 403
+INFO:root:# successes: 342 (84.9%)
+
+  6%|▌         | 3/50 [00:27<06:41,  8.55s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 404
+INFO:root:# successes: 342 (84.7%)
+
+  8%|▊         | 4/50 [00:42<08:26, 11.00s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 405
+INFO:root:# successes: 343 (84.7%)
+
+ 10%|█         | 5/50 [00:50<07:19,  9.76s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 406
+INFO:root:# successes: 344 (84.7%)
+
+ 12%|█▏        | 6/50 [00:56<06:26,  8.78s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 407
+INFO:root:# successes: 345 (84.8%)
+
+ 14%|█▍        | 7/50 [01:04<06:01,  8.41s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 408
+INFO:root:# successes: 345 (84.6%)
+
+ 16%|█▌        | 8/50 [01:18<07:01, 10.04s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 409
+INFO:root:# successes: 345 (84.4%)
+
+ 18%|█▊        | 9/50 [01:31<07:39, 11.22s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 410
+INFO:root:# successes: 346 (84.4%)
+
+ 20%|██        | 10/50 [01:39<06:41, 10.04s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 411
+INFO:root:# successes: 347 (84.4%)
+
+ 22%|██▏       | 11/50 [01:47<06:03,  9.33s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 412
+INFO:root:# successes: 348 (84.5%)
+
+ 24%|██▍       | 12/50 [01:54<05:26,  8.60s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 413
+INFO:root:# successes: 349 (84.5%)
+
+ 26%|██▌       | 13/50 [02:01<05:00,  8.11s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 414
+INFO:root:# successes: 350 (84.5%)
+
+ 28%|██▊       | 14/50 [02:07<04:39,  7.77s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 415
+INFO:root:# successes: 351 (84.6%)
+
+ 30%|███       | 15/50 [02:14<04:22,  7.50s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 416
+INFO:root:# successes: 352 (84.6%)
+
+ 32%|███▏      | 16/50 [02:22<04:15,  7.51s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 417
+INFO:root:# successes: 352 (84.4%)
+
+ 34%|███▍      | 17/50 [02:36<05:12,  9.47s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 418
+INFO:root:# successes: 353 (84.4%)
+
+ 36%|███▌      | 18/50 [02:43<04:40,  8.76s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 419
+INFO:root:# successes: 354 (84.5%)
+
+ 38%|███▊      | 19/50 [02:51<04:24,  8.52s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 420
+INFO:root:# successes: 354 (84.3%)
+
+ 40%|████      | 20/50 [03:05<05:07, 10.24s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 421
+INFO:root:# successes: 355 (84.3%)
+
+ 42%|████▏     | 21/50 [03:13<04:32,  9.38s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 422
+INFO:root:# successes: 355 (84.1%)
+
+ 44%|████▍     | 22/50 [03:27<05:04, 10.86s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 423
+INFO:root:# successes: 356 (84.2%)
+
+ 46%|████▌     | 23/50 [03:35<04:31, 10.06s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 424
+INFO:root:# successes: 356 (84.0%)
+
+ 48%|████▊     | 24/50 [03:49<04:53, 11.30s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 425
+INFO:root:# successes: 357 (84.0%)
+
+ 50%|█████     | 25/50 [03:56<04:10, 10.01s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 426
+INFO:root:# successes: 357 (83.8%)
+
+ 52%|█████▏    | 26/50 [04:11<04:31, 11.33s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 427
+INFO:root:# successes: 358 (83.8%)
+
+ 54%|█████▍    | 27/50 [04:19<03:56, 10.29s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 428
+INFO:root:# successes: 359 (83.9%)
+
+ 56%|█████▌    | 28/50 [04:26<03:25,  9.33s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 429
+INFO:root:# successes: 359 (83.7%)
+
+ 58%|█████▊    | 29/50 [04:40<03:46, 10.77s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 430
+INFO:root:# successes: 360 (83.7%)
+
+ 60%|██████    | 30/50 [04:48<03:17,  9.89s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 431
+INFO:root:# successes: 361 (83.8%)
+
+ 62%|██████▏   | 31/50 [04:54<02:49,  8.93s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 432
+INFO:root:# successes: 361 (83.6%)
+
+ 64%|██████▍   | 32/50 [05:08<03:08, 10.45s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 433
+INFO:root:# successes: 362 (83.6%)
+
+ 66%|██████▌   | 33/50 [05:16<02:41,  9.50s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 434
+INFO:root:# successes: 363 (83.6%)
+
+ 68%|██████▊   | 34/50 [05:24<02:24,  9.03s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 435
+INFO:root:# successes: 364 (83.7%)
+
+ 70%|███████   | 35/50 [05:30<02:03,  8.24s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 436
+INFO:root:# successes: 365 (83.7%)
+
+ 72%|███████▏  | 36/50 [05:37<01:48,  7.74s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 437
+INFO:root:# successes: 365 (83.5%)
+
+ 74%|███████▍  | 37/50 [05:51<02:06,  9.72s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 438
+INFO:root:# successes: 366 (83.6%)
+
+ 76%|███████▌  | 38/50 [05:58<01:46,  8.91s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 439
+INFO:root:# successes: 367 (83.6%)
+
+ 78%|███████▊  | 39/50 [06:05<01:31,  8.29s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 440
+INFO:root:# successes: 368 (83.6%)
+
+ 80%|████████  | 40/50 [06:11<01:17,  7.76s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 441
+INFO:root:# successes: 369 (83.7%)
+
+ 82%|████████▏ | 41/50 [06:19<01:09,  7.77s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 442
+INFO:root:# successes: 370 (83.7%)
+
+ 84%|████████▍ | 42/50 [06:26<01:00,  7.58s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 443
+INFO:root:# successes: 371 (83.7%)
+
+ 86%|████████▌ | 43/50 [06:34<00:53,  7.64s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 444
+INFO:root:# successes: 372 (83.8%)
+
+ 88%|████████▊ | 44/50 [06:42<00:47,  7.90s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 445
+INFO:root:# successes: 373 (83.8%)
+
+ 90%|█████████ | 45/50 [06:52<00:41,  8.25s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 446
+INFO:root:# successes: 374 (83.9%)
+
+ 92%|█████████▏| 46/50 [06:59<00:32,  8.04s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 447
+INFO:root:# successes: 375 (83.9%)
+
+ 94%|█████████▍| 47/50 [07:06<00:22,  7.63s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 448
+INFO:root:# successes: 376 (83.9%)
+
+ 96%|█████████▌| 48/50 [07:15<00:16,  8.07s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 449
+INFO:root:# successes: 377 (84.0%)
+
+ 98%|█████████▊| 49/50 [07:21<00:07,  7.60s/it][AINFO:root:
+Task: pick up the black bowl next to the plate and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 450
+INFO:root:# successes: 378 (84.0%)
+
+100%|██████████| 50/50 [07:29<00:00,  7.49s/it][A100%|██████████| 50/50 [07:29<00:00,  8.98s/it]
+INFO:root:Current task success rate: 0.76
+INFO:root:Current total success rate: 0.84
+ 90%|█████████ | 9/10 [1:08:28<07:47, 467.50s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 451
+INFO:root:# successes: 378 (83.8%)
+
+  2%|▏         | 1/50 [00:13<11:12, 13.72s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 452
+INFO:root:# successes: 378 (83.6%)
+
+  4%|▍         | 2/50 [00:27<10:59, 13.74s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 453
+INFO:root:# successes: 378 (83.4%)
+
+  6%|▌         | 3/50 [00:41<10:52, 13.88s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 454
+INFO:root:# successes: 379 (83.5%)
+
+  8%|▊         | 4/50 [00:50<09:01, 11.77s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 455
+INFO:root:# successes: 380 (83.5%)
+
+ 10%|█         | 5/50 [01:00<08:33, 11.41s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 456
+INFO:root:# successes: 381 (83.6%)
+
+ 12%|█▏        | 6/50 [01:09<07:36, 10.38s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 457
+INFO:root:# successes: 382 (83.6%)
+
+ 14%|█▍        | 7/50 [01:18<07:11, 10.05s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 8...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 458
+INFO:root:# successes: 382 (83.4%)
+
+ 16%|█▌        | 8/50 [01:32<07:57, 11.36s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 459
+INFO:root:# successes: 383 (83.4%)
+
+ 18%|█▊        | 9/50 [01:40<07:05, 10.38s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 460
+INFO:root:# successes: 384 (83.5%)
+
+ 20%|██        | 10/50 [01:50<06:41, 10.04s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 461
+INFO:root:# successes: 385 (83.5%)
+
+ 22%|██▏       | 11/50 [01:58<06:05,  9.37s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 462
+INFO:root:# successes: 386 (83.5%)
+
+ 24%|██▍       | 12/50 [02:06<05:47,  9.14s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 13...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 463
+INFO:root:# successes: 386 (83.4%)
+
+ 26%|██▌       | 13/50 [02:20<06:33, 10.65s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 464
+INFO:root:# successes: 387 (83.4%)
+
+ 28%|██▊       | 14/50 [02:29<06:04, 10.14s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 465
+INFO:root:# successes: 388 (83.4%)
+
+ 30%|███       | 15/50 [02:39<05:48,  9.95s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 466
+INFO:root:# successes: 389 (83.5%)
+
+ 32%|███▏      | 16/50 [02:47<05:17,  9.34s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 467
+INFO:root:# successes: 390 (83.5%)
+
+ 34%|███▍      | 17/50 [02:55<04:59,  9.07s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 468
+INFO:root:# successes: 391 (83.5%)
+
+ 36%|███▌      | 18/50 [03:04<04:44,  8.90s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 469
+INFO:root:# successes: 392 (83.6%)
+
+ 38%|███▊      | 19/50 [03:12<04:33,  8.82s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 470
+INFO:root:# successes: 393 (83.6%)
+
+ 40%|████      | 20/50 [03:21<04:26,  8.89s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 471
+INFO:root:# successes: 394 (83.7%)
+
+ 42%|████▏     | 21/50 [03:29<04:10,  8.65s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 472
+INFO:root:# successes: 395 (83.7%)
+
+ 44%|████▍     | 22/50 [03:38<04:02,  8.65s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 473
+INFO:root:# successes: 396 (83.7%)
+
+ 46%|████▌     | 23/50 [03:46<03:48,  8.48s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 474
+INFO:root:# successes: 397 (83.8%)
+
+ 48%|████▊     | 24/50 [03:55<03:45,  8.68s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 475
+INFO:root:# successes: 398 (83.8%)
+
+ 50%|█████     | 25/50 [04:04<03:40,  8.81s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 26...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 476
+INFO:root:# successes: 398 (83.6%)
+
+ 52%|█████▏    | 26/50 [04:18<04:07, 10.30s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 477
+INFO:root:# successes: 399 (83.6%)
+
+ 54%|█████▍    | 27/50 [04:27<03:44,  9.78s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 28...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 478
+INFO:root:# successes: 399 (83.5%)
+
+ 56%|█████▌    | 28/50 [04:41<04:03, 11.05s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 479
+INFO:root:# successes: 400 (83.5%)
+
+ 58%|█████▊    | 29/50 [04:49<03:34, 10.22s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 480
+INFO:root:# successes: 401 (83.5%)
+
+ 60%|██████    | 30/50 [04:58<03:15,  9.76s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 481
+INFO:root:# successes: 402 (83.6%)
+
+ 62%|██████▏   | 31/50 [05:06<02:55,  9.26s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 482
+INFO:root:# successes: 403 (83.6%)
+
+ 64%|██████▍   | 32/50 [05:13<02:37,  8.76s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 483
+INFO:root:# successes: 404 (83.6%)
+
+ 66%|██████▌   | 33/50 [05:22<02:25,  8.56s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 34...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 484
+INFO:root:# successes: 404 (83.5%)
+
+ 68%|██████▊   | 34/50 [05:36<02:43, 10.21s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 485
+INFO:root:# successes: 405 (83.5%)
+
+ 70%|███████   | 35/50 [05:47<02:37, 10.53s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 36...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 486
+INFO:root:# successes: 405 (83.3%)
+
+ 72%|███████▏  | 36/50 [06:01<02:42, 11.60s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 37...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 487
+INFO:root:# successes: 405 (83.2%)
+
+ 74%|███████▍  | 37/50 [06:15<02:39, 12.25s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 488
+INFO:root:# successes: 406 (83.2%)
+
+ 76%|███████▌  | 38/50 [06:24<02:17, 11.48s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 489
+INFO:root:# successes: 407 (83.2%)
+
+ 78%|███████▊  | 39/50 [06:34<01:59, 10.86s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 490
+INFO:root:# successes: 408 (83.3%)
+
+ 80%|████████  | 40/50 [06:43<01:42, 10.28s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 491
+INFO:root:# successes: 409 (83.3%)
+
+ 82%|████████▏ | 41/50 [06:52<01:29,  9.91s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 492
+INFO:root:# successes: 410 (83.3%)
+
+ 84%|████████▍ | 42/50 [07:00<01:16,  9.53s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 493
+INFO:root:# successes: 411 (83.4%)
+
+ 86%|████████▌ | 43/50 [07:09<01:03,  9.09s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 494
+INFO:root:# successes: 412 (83.4%)
+
+ 88%|████████▊ | 44/50 [07:17<00:53,  8.91s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 495
+INFO:root:# successes: 413 (83.4%)
+
+ 90%|█████████ | 45/50 [07:25<00:43,  8.63s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 46...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 496
+INFO:root:# successes: 413 (83.3%)
+
+ 92%|█████████▏| 46/50 [07:39<00:41, 10.31s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 497
+INFO:root:# successes: 414 (83.3%)
+
+ 94%|█████████▍| 47/50 [07:47<00:28,  9.65s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 498
+INFO:root:# successes: 415 (83.3%)
+
+ 96%|█████████▌| 48/50 [07:56<00:18,  9.32s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 499
+INFO:root:# successes: 416 (83.4%)
+
+ 98%|█████████▊| 49/50 [08:04<00:08,  8.96s/it][AINFO:root:
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 500
+INFO:root:# successes: 417 (83.4%)
+
+100%|██████████| 50/50 [08:12<00:00,  8.77s/it][A100%|██████████| 50/50 [08:12<00:00,  9.86s/it]
+INFO:root:Current task success rate: 0.78
+INFO:root:Current total success rate: 0.834
+100%|██████████| 10/10 [1:16:42<00:00, 475.68s/it]100%|██████████| 10/10 [1:16:42<00:00, 460.25s/it]
+INFO:root:Total success rate: 0.834
+INFO:root:Total episodes: 500
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f4763d083a0>
+Traceback (most recent call last):
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: INFO:OpenGL.platform.ctypesloader:Failed to load library ( 'libGLU.so.0' ): libGLU.so.0: cannot open shared object file: No such file or directory
+EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f475a06d4c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f4766213340>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f4766213340>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f47662138c0>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f4763d081f0>
+Traceback (most recent call last):
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f475a06d4c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f4766213340>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f4766213340>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f47662138c0>,
+	),
+	result = 0
+)

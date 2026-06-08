@@ -1,0 +1,3615 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+INFO:root:Task suite: libero_object
+INFO:root:Waiting for server at ws://0.0.0.0:8000...
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  0%|          | 0/10 [00:00<?, ?it/s]/root/openpi/third_party/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 1
+INFO:root:# successes: 0 (0.0%)
+
+  2%|▏         | 1/50 [00:14<11:41, 14.32s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 2
+INFO:root:# successes: 1 (50.0%)
+
+  4%|▍         | 2/50 [00:22<08:28, 10.60s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 3
+INFO:root:# successes: 2 (66.7%)
+
+  6%|▌         | 3/50 [00:30<07:19,  9.35s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 4
+INFO:root:# successes: 2 (50.0%)
+
+  8%|▊         | 4/50 [00:44<08:33, 11.16s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 5
+INFO:root:# successes: 3 (60.0%)
+
+ 10%|█         | 5/50 [00:52<07:34, 10.10s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 6
+INFO:root:# successes: 3 (50.0%)
+
+ 12%|█▏        | 6/50 [01:06<08:21, 11.41s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 7
+INFO:root:# successes: 4 (57.1%)
+
+ 14%|█▍        | 7/50 [01:14<07:30, 10.48s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 8
+INFO:root:# successes: 5 (62.5%)
+
+ 16%|█▌        | 8/50 [01:22<06:48,  9.73s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 9
+INFO:root:# successes: 5 (55.6%)
+
+ 18%|█▊        | 9/50 [01:37<07:37, 11.15s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 10
+INFO:root:# successes: 5 (50.0%)
+
+ 20%|██        | 10/50 [01:51<08:05, 12.14s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 11
+INFO:root:# successes: 6 (54.5%)
+
+ 22%|██▏       | 11/50 [02:00<07:08, 11.00s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 12
+INFO:root:# successes: 7 (58.3%)
+
+ 24%|██▍       | 12/50 [02:12<07:10, 11.32s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 13
+INFO:root:# successes: 8 (61.5%)
+
+ 26%|██▌       | 13/50 [02:20<06:29, 10.52s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 14
+INFO:root:# successes: 9 (64.3%)
+
+ 28%|██▊       | 14/50 [02:33<06:48, 11.35s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 15
+INFO:root:# successes: 9 (60.0%)
+
+ 30%|███       | 15/50 [02:48<07:08, 12.25s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 16
+INFO:root:# successes: 9 (56.2%)
+
+ 32%|███▏      | 16/50 [03:03<07:30, 13.25s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 17
+INFO:root:# successes: 10 (58.8%)
+
+ 34%|███▍      | 17/50 [03:12<06:31, 11.87s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 18
+INFO:root:# successes: 10 (55.6%)
+
+ 36%|███▌      | 18/50 [03:28<06:59, 13.11s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 19
+INFO:root:# successes: 10 (52.6%)
+
+ 38%|███▊      | 19/50 [03:42<06:56, 13.43s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 20
+INFO:root:# successes: 11 (55.0%)
+
+ 40%|████      | 20/50 [03:53<06:18, 12.62s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 21
+INFO:root:# successes: 12 (57.1%)
+
+ 42%|████▏     | 21/50 [04:03<05:42, 11.82s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 22
+INFO:root:# successes: 13 (59.1%)
+
+ 44%|████▍     | 22/50 [04:11<05:00, 10.72s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 23
+INFO:root:# successes: 13 (56.5%)
+
+ 46%|████▌     | 23/50 [04:26<05:23, 11.98s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 24
+INFO:root:# successes: 13 (54.2%)
+
+ 48%|████▊     | 24/50 [04:42<05:44, 13.25s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 25
+INFO:root:# successes: 13 (52.0%)
+
+ 50%|█████     | 25/50 [04:57<05:40, 13.61s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 26
+INFO:root:# successes: 13 (50.0%)
+
+ 52%|█████▏    | 26/50 [05:11<05:33, 13.91s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 27
+INFO:root:# successes: 14 (51.9%)
+
+ 54%|█████▍    | 27/50 [05:19<04:35, 11.99s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 28
+INFO:root:# successes: 15 (53.6%)
+
+ 56%|█████▌    | 28/50 [05:28<04:04, 11.13s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 29
+INFO:root:# successes: 16 (55.2%)
+
+ 58%|█████▊    | 29/50 [05:39<03:53, 11.12s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 30
+INFO:root:# successes: 17 (56.7%)
+
+ 60%|██████    | 30/50 [05:48<03:28, 10.44s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 31
+INFO:root:# successes: 18 (58.1%)
+
+ 62%|██████▏   | 31/50 [05:56<03:07,  9.86s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 32
+INFO:root:# successes: 18 (56.2%)
+
+ 64%|██████▍   | 32/50 [06:11<03:20, 11.16s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 33
+INFO:root:# successes: 18 (54.5%)
+
+ 66%|██████▌   | 33/50 [06:25<03:26, 12.14s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 34
+INFO:root:# successes: 18 (52.9%)
+
+ 68%|██████▊   | 34/50 [06:39<03:24, 12.79s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 35
+INFO:root:# successes: 19 (54.3%)
+
+ 70%|███████   | 35/50 [06:47<02:51, 11.40s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 36
+INFO:root:# successes: 19 (52.8%)
+
+ 72%|███████▏  | 36/50 [07:02<02:52, 12.35s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 37
+INFO:root:# successes: 20 (54.1%)
+
+ 74%|███████▍  | 37/50 [07:11<02:26, 11.26s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 38
+INFO:root:# successes: 20 (52.6%)
+
+ 76%|███████▌  | 38/50 [07:26<02:28, 12.36s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 39
+INFO:root:# successes: 20 (51.3%)
+
+ 78%|███████▊  | 39/50 [07:40<02:21, 12.86s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 40
+INFO:root:# successes: 20 (50.0%)
+
+ 80%|████████  | 40/50 [07:55<02:15, 13.53s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 41
+INFO:root:# successes: 20 (48.8%)
+
+ 82%|████████▏ | 41/50 [08:10<02:06, 14.10s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 42
+INFO:root:# successes: 21 (50.0%)
+
+ 84%|████████▍ | 42/50 [08:24<01:51, 13.93s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 43
+INFO:root:# successes: 21 (48.8%)
+
+ 86%|████████▌ | 43/50 [08:39<01:40, 14.34s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 44
+INFO:root:# successes: 22 (50.0%)
+
+ 88%|████████▊ | 44/50 [08:47<01:13, 12.31s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 45
+INFO:root:# successes: 23 (51.1%)
+
+ 90%|█████████ | 45/50 [08:56<00:57, 11.44s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 46
+INFO:root:# successes: 24 (52.2%)
+
+ 92%|█████████▏| 46/50 [09:04<00:42, 10.52s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 47
+INFO:root:# successes: 25 (53.2%)
+
+ 94%|█████████▍| 47/50 [09:14<00:30, 10.18s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 48
+INFO:root:# successes: 26 (54.2%)
+
+ 96%|█████████▌| 48/50 [09:22<00:18,  9.49s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 49
+INFO:root:# successes: 26 (53.1%)
+
+ 98%|█████████▊| 49/50 [09:37<00:11, 11.23s/it][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 50
+INFO:root:# successes: 26 (52.0%)
+
+100%|██████████| 50/50 [09:52<00:00, 12.51s/it][A100%|██████████| 50/50 [09:52<00:00, 11.86s/it]
+INFO:root:Current task success rate: 0.52
+INFO:root:Current total success rate: 0.52
+ 10%|█         | 1/10 [09:55<1:29:17, 595.27s/it]/root/openpi/third_party/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 51
+INFO:root:# successes: 27 (52.9%)
+
+  2%|▏         | 1/50 [00:07<05:52,  7.19s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 52
+INFO:root:# successes: 28 (53.8%)
+
+  4%|▍         | 2/50 [00:14<05:38,  7.06s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 53
+INFO:root:# successes: 29 (54.7%)
+
+  6%|▌         | 3/50 [00:21<05:36,  7.16s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 54
+INFO:root:# successes: 30 (55.6%)
+
+  8%|▊         | 4/50 [00:28<05:18,  6.93s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 55
+INFO:root:# successes: 31 (56.4%)
+
+ 10%|█         | 5/50 [00:34<05:11,  6.93s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 56
+INFO:root:# successes: 32 (57.1%)
+
+ 12%|█▏        | 6/50 [00:46<06:10,  8.42s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 57
+INFO:root:# successes: 33 (57.9%)
+
+ 14%|█▍        | 7/50 [00:52<05:35,  7.80s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 58
+INFO:root:# successes: 34 (58.6%)
+
+ 16%|█▌        | 8/50 [00:59<05:16,  7.54s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 59
+INFO:root:# successes: 35 (59.3%)
+
+ 18%|█▊        | 9/50 [01:07<05:10,  7.57s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 60
+INFO:root:# successes: 36 (60.0%)
+
+ 20%|██        | 10/50 [01:15<05:04,  7.62s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 61
+INFO:root:# successes: 37 (60.7%)
+
+ 22%|██▏       | 11/50 [01:21<04:42,  7.24s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 62
+INFO:root:# successes: 38 (61.3%)
+
+ 24%|██▍       | 12/50 [01:27<04:25,  6.98s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 63
+INFO:root:# successes: 39 (61.9%)
+
+ 26%|██▌       | 13/50 [01:35<04:22,  7.10s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 64
+INFO:root:# successes: 40 (62.5%)
+
+ 28%|██▊       | 14/50 [01:42<04:16,  7.12s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 65
+INFO:root:# successes: 41 (63.1%)
+
+ 30%|███       | 15/50 [01:49<04:05,  7.00s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 66
+INFO:root:# successes: 42 (63.6%)
+
+ 32%|███▏      | 16/50 [01:56<04:05,  7.23s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 67
+INFO:root:# successes: 43 (64.2%)
+
+ 34%|███▍      | 17/50 [02:08<04:39,  8.47s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 68
+INFO:root:# successes: 44 (64.7%)
+
+ 36%|███▌      | 18/50 [02:14<04:11,  7.87s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 69
+INFO:root:# successes: 45 (65.2%)
+
+ 38%|███▊      | 19/50 [02:21<03:52,  7.50s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 70
+INFO:root:# successes: 46 (65.7%)
+
+ 40%|████      | 20/50 [02:28<03:40,  7.36s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 71
+INFO:root:# successes: 47 (66.2%)
+
+ 42%|████▏     | 21/50 [02:35<03:31,  7.29s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 72
+INFO:root:# successes: 47 (65.3%)
+
+ 44%|████▍     | 22/50 [02:49<04:23,  9.41s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 73
+INFO:root:# successes: 48 (65.8%)
+
+ 46%|████▌     | 23/50 [02:57<03:55,  8.74s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 74
+INFO:root:# successes: 49 (66.2%)
+
+ 48%|████▊     | 24/50 [03:03<03:32,  8.16s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 75
+INFO:root:# successes: 50 (66.7%)
+
+ 50%|█████     | 25/50 [03:10<03:15,  7.82s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 76
+INFO:root:# successes: 51 (67.1%)
+
+ 52%|█████▏    | 26/50 [03:18<03:03,  7.63s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 77
+INFO:root:# successes: 52 (67.5%)
+
+ 54%|█████▍    | 27/50 [03:25<02:54,  7.58s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 78
+INFO:root:# successes: 52 (66.7%)
+
+ 56%|█████▌    | 28/50 [03:40<03:34,  9.76s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 79
+INFO:root:# successes: 53 (67.1%)
+
+ 58%|█████▊    | 29/50 [03:47<03:08,  8.97s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 80
+INFO:root:# successes: 54 (67.5%)
+
+ 60%|██████    | 30/50 [03:54<02:49,  8.46s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 81
+INFO:root:# successes: 55 (67.9%)
+
+ 62%|██████▏   | 31/50 [04:02<02:39,  8.37s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 82
+INFO:root:# successes: 56 (68.3%)
+
+ 64%|██████▍   | 32/50 [04:09<02:22,  7.94s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 83
+INFO:root:# successes: 57 (68.7%)
+
+ 66%|██████▌   | 33/50 [04:18<02:20,  8.24s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 84
+INFO:root:# successes: 58 (69.0%)
+
+ 68%|██████▊   | 34/50 [04:26<02:06,  7.93s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 85
+INFO:root:# successes: 59 (69.4%)
+
+ 70%|███████   | 35/50 [04:33<01:55,  7.70s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 86
+INFO:root:# successes: 60 (69.8%)
+
+ 72%|███████▏  | 36/50 [04:40<01:46,  7.61s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 87
+INFO:root:# successes: 61 (70.1%)
+
+ 74%|███████▍  | 37/50 [04:47<01:36,  7.38s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 88
+INFO:root:# successes: 62 (70.5%)
+
+ 76%|███████▌  | 38/50 [04:54<01:26,  7.23s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 89
+INFO:root:# successes: 63 (70.8%)
+
+ 78%|███████▊  | 39/50 [05:00<01:17,  7.05s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 90
+INFO:root:# successes: 64 (71.1%)
+
+ 80%|████████  | 40/50 [05:08<01:10,  7.10s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 91
+INFO:root:# successes: 65 (71.4%)
+
+ 82%|████████▏ | 41/50 [05:15<01:04,  7.13s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 92
+INFO:root:# successes: 66 (71.7%)
+
+ 84%|████████▍ | 42/50 [05:22<00:57,  7.13s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 93
+INFO:root:# successes: 67 (72.0%)
+
+ 86%|████████▌ | 43/50 [05:30<00:50,  7.28s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 94
+INFO:root:# successes: 68 (72.3%)
+
+ 88%|████████▊ | 44/50 [05:37<00:43,  7.29s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 95
+INFO:root:# successes: 69 (72.6%)
+
+ 90%|█████████ | 45/50 [05:48<00:42,  8.40s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 96
+INFO:root:# successes: 70 (72.9%)
+
+ 92%|█████████▏| 46/50 [05:54<00:31,  7.82s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 97
+INFO:root:# successes: 71 (73.2%)
+
+ 94%|█████████▍| 47/50 [06:01<00:22,  7.39s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 98
+INFO:root:# successes: 72 (73.5%)
+
+ 96%|█████████▌| 48/50 [06:08<00:14,  7.29s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 99
+INFO:root:# successes: 73 (73.7%)
+
+ 98%|█████████▊| 49/50 [06:19<00:08,  8.46s/it][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 100
+INFO:root:# successes: 74 (74.0%)
+
+100%|██████████| 50/50 [06:26<00:00,  8.11s/it][A100%|██████████| 50/50 [06:26<00:00,  7.74s/it]
+INFO:root:Current task success rate: 0.96
+INFO:root:Current total success rate: 0.74
+ 20%|██        | 2/10 [16:23<1:03:05, 473.24s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 101
+INFO:root:# successes: 75 (74.3%)
+
+  2%|▏         | 1/50 [00:07<06:06,  7.49s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 102
+INFO:root:# successes: 76 (74.5%)
+
+  4%|▍         | 2/50 [00:14<05:47,  7.24s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 103
+INFO:root:# successes: 77 (74.8%)
+
+  6%|▌         | 3/50 [00:21<05:32,  7.08s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 104
+INFO:root:# successes: 78 (75.0%)
+
+  8%|▊         | 4/50 [00:29<05:45,  7.52s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 105
+INFO:root:# successes: 79 (75.2%)
+
+ 10%|█         | 5/50 [00:36<05:23,  7.19s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 106
+INFO:root:# successes: 80 (75.5%)
+
+ 12%|█▏        | 6/50 [00:43<05:17,  7.21s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 107
+INFO:root:# successes: 81 (75.7%)
+
+ 14%|█▍        | 7/50 [00:50<05:04,  7.09s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 108
+INFO:root:# successes: 82 (75.9%)
+
+ 16%|█▌        | 8/50 [00:56<04:50,  6.91s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 109
+INFO:root:# successes: 83 (76.1%)
+
+ 18%|█▊        | 9/50 [01:03<04:42,  6.90s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 110
+INFO:root:# successes: 84 (76.4%)
+
+ 20%|██        | 10/50 [01:11<04:42,  7.06s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 111
+INFO:root:# successes: 84 (75.7%)
+
+ 22%|██▏       | 11/50 [01:25<05:58,  9.20s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 112
+INFO:root:# successes: 85 (75.9%)
+
+ 24%|██▍       | 12/50 [01:31<05:20,  8.45s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 113
+INFO:root:# successes: 86 (76.1%)
+
+ 26%|██▌       | 13/50 [01:39<05:07,  8.30s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 114
+INFO:root:# successes: 87 (76.3%)
+
+ 28%|██▊       | 14/50 [01:46<04:45,  7.92s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 115
+INFO:root:# successes: 88 (76.5%)
+
+ 30%|███       | 15/50 [01:53<04:26,  7.62s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 116
+INFO:root:# successes: 89 (76.7%)
+
+ 32%|███▏      | 16/50 [02:00<04:12,  7.42s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 117
+INFO:root:# successes: 90 (76.9%)
+
+ 34%|███▍      | 17/50 [02:07<03:59,  7.26s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 118
+INFO:root:# successes: 91 (77.1%)
+
+ 36%|███▌      | 18/50 [02:14<03:45,  7.05s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 119
+INFO:root:# successes: 92 (77.3%)
+
+ 38%|███▊      | 19/50 [02:21<03:43,  7.20s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 120
+INFO:root:# successes: 93 (77.5%)
+
+ 40%|████      | 20/50 [02:28<03:32,  7.07s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 121
+INFO:root:# successes: 94 (77.7%)
+
+ 42%|████▏     | 21/50 [02:35<03:26,  7.11s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 122
+INFO:root:# successes: 95 (77.9%)
+
+ 44%|████▍     | 22/50 [02:42<03:16,  7.00s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 123
+INFO:root:# successes: 96 (78.0%)
+
+ 46%|████▌     | 23/50 [02:51<03:25,  7.60s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 124
+INFO:root:# successes: 96 (77.4%)
+
+ 48%|████▊     | 24/50 [03:05<04:09,  9.59s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 125
+INFO:root:# successes: 97 (77.6%)
+
+ 50%|█████     | 25/50 [03:12<03:38,  8.76s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 126
+INFO:root:# successes: 98 (77.8%)
+
+ 52%|█████▏    | 26/50 [03:19<03:14,  8.12s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 127
+INFO:root:# successes: 99 (78.0%)
+
+ 54%|█████▍    | 27/50 [03:25<02:56,  7.67s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 128
+INFO:root:# successes: 100 (78.1%)
+
+ 56%|█████▌    | 28/50 [03:33<02:46,  7.56s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 129
+INFO:root:# successes: 101 (78.3%)
+
+ 58%|█████▊    | 29/50 [03:41<02:41,  7.67s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 130
+INFO:root:# successes: 102 (78.5%)
+
+ 60%|██████    | 30/50 [03:48<02:29,  7.49s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 131
+INFO:root:# successes: 103 (78.6%)
+
+ 62%|██████▏   | 31/50 [03:54<02:17,  7.26s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 132
+INFO:root:# successes: 104 (78.8%)
+
+ 64%|██████▍   | 32/50 [04:03<02:19,  7.75s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 133
+INFO:root:# successes: 105 (78.9%)
+
+ 66%|██████▌   | 33/50 [04:11<02:09,  7.64s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 134
+INFO:root:# successes: 105 (78.4%)
+
+ 68%|██████▊   | 34/50 [04:25<02:34,  9.65s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 135
+INFO:root:# successes: 105 (77.8%)
+
+ 70%|███████   | 35/50 [04:39<02:45, 11.02s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 136
+INFO:root:# successes: 105 (77.2%)
+
+ 72%|███████▏  | 36/50 [04:53<02:47, 12.00s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 137
+INFO:root:# successes: 106 (77.4%)
+
+ 74%|███████▍  | 37/50 [05:00<02:16, 10.49s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 138
+INFO:root:# successes: 106 (76.8%)
+
+ 76%|███████▌  | 38/50 [05:15<02:19, 11.59s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 139
+INFO:root:# successes: 107 (77.0%)
+
+ 78%|███████▊  | 39/50 [05:21<01:51, 10.11s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 140
+INFO:root:# successes: 108 (77.1%)
+
+ 80%|████████  | 40/50 [05:29<01:35,  9.53s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 141
+INFO:root:# successes: 109 (77.3%)
+
+ 82%|████████▏ | 41/50 [05:37<01:19,  8.80s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 142
+INFO:root:# successes: 110 (77.5%)
+
+ 84%|████████▍ | 42/50 [05:43<01:05,  8.19s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 143
+INFO:root:# successes: 110 (76.9%)
+
+ 86%|████████▌ | 43/50 [05:58<01:10, 10.01s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 144
+INFO:root:# successes: 110 (76.4%)
+
+ 88%|████████▊ | 44/50 [06:12<01:07, 11.24s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 145
+INFO:root:# successes: 111 (76.6%)
+
+ 90%|█████████ | 45/50 [06:19<00:50, 10.06s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 146
+INFO:root:# successes: 112 (76.7%)
+
+ 92%|█████████▏| 46/50 [06:31<00:42, 10.71s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 147
+INFO:root:# successes: 113 (76.9%)
+
+ 94%|█████████▍| 47/50 [06:38<00:28,  9.65s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 148
+INFO:root:# successes: 113 (76.4%)
+
+ 96%|█████████▌| 48/50 [06:52<00:21, 10.97s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 149
+INFO:root:# successes: 114 (76.5%)
+
+ 98%|█████████▊| 49/50 [06:59<00:09,  9.76s/it][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 150
+INFO:root:# successes: 115 (76.7%)
+
+100%|██████████| 50/50 [07:07<00:00,  8.99s/it][A100%|██████████| 50/50 [07:07<00:00,  8.54s/it]
+INFO:root:Current task success rate: 0.82
+INFO:root:Current total success rate: 0.7666666666666667
+ 30%|███       | 3/10 [23:31<52:48, 452.62s/it]  [Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 151
+INFO:root:# successes: 116 (76.8%)
+
+  2%|▏         | 1/50 [00:06<05:37,  6.88s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 152
+INFO:root:# successes: 117 (77.0%)
+
+  4%|▍         | 2/50 [00:13<05:13,  6.53s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 153
+INFO:root:# successes: 117 (76.5%)
+
+  6%|▌         | 3/50 [00:27<07:45,  9.90s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 154
+INFO:root:# successes: 118 (76.6%)
+
+  8%|▊         | 4/50 [00:33<06:32,  8.53s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 155
+INFO:root:# successes: 119 (76.8%)
+
+ 10%|█         | 5/50 [00:40<06:01,  8.04s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 156
+INFO:root:# successes: 120 (76.9%)
+
+ 12%|█▏        | 6/50 [00:48<05:48,  7.91s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 157
+INFO:root:# successes: 121 (77.1%)
+
+ 14%|█▍        | 7/50 [00:55<05:28,  7.64s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 158
+INFO:root:# successes: 122 (77.2%)
+
+ 16%|█▌        | 8/50 [01:02<05:13,  7.46s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 159
+INFO:root:# successes: 123 (77.4%)
+
+ 18%|█▊        | 9/50 [01:09<05:03,  7.39s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 160
+INFO:root:# successes: 123 (76.9%)
+
+ 20%|██        | 10/50 [01:23<06:19,  9.50s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 161
+INFO:root:# successes: 123 (76.4%)
+
+ 22%|██▏       | 11/50 [01:38<07:05, 10.90s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 162
+INFO:root:# successes: 124 (76.5%)
+
+ 24%|██▍       | 12/50 [01:44<06:08,  9.69s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 163
+INFO:root:# successes: 124 (76.1%)
+
+ 26%|██▌       | 13/50 [01:58<06:45, 10.97s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 164
+INFO:root:# successes: 125 (76.2%)
+
+ 28%|██▊       | 14/50 [02:07<06:07, 10.20s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 165
+INFO:root:# successes: 126 (76.4%)
+
+ 30%|███       | 15/50 [02:14<05:23,  9.25s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 166
+INFO:root:# successes: 127 (76.5%)
+
+ 32%|███▏      | 16/50 [02:24<05:24,  9.53s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 167
+INFO:root:# successes: 128 (76.6%)
+
+ 34%|███▍      | 17/50 [02:31<04:52,  8.87s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 168
+INFO:root:# successes: 128 (76.2%)
+
+ 36%|███▌      | 18/50 [02:45<05:32, 10.40s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 169
+INFO:root:# successes: 129 (76.3%)
+
+ 38%|███▊      | 19/50 [02:53<04:57,  9.60s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 170
+INFO:root:# successes: 130 (76.5%)
+
+ 40%|████      | 20/50 [03:02<04:41,  9.38s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 171
+INFO:root:# successes: 131 (76.6%)
+
+ 42%|████▏     | 21/50 [03:09<04:11,  8.68s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 172
+INFO:root:# successes: 132 (76.7%)
+
+ 44%|████▍     | 22/50 [03:22<04:43, 10.13s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 173
+INFO:root:# successes: 133 (76.9%)
+
+ 46%|████▌     | 23/50 [03:30<04:09,  9.23s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 174
+INFO:root:# successes: 134 (77.0%)
+
+ 48%|████▊     | 24/50 [03:41<04:13,  9.76s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 175
+INFO:root:# successes: 135 (77.1%)
+
+ 50%|█████     | 25/50 [03:48<03:43,  8.96s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 176
+INFO:root:# successes: 136 (77.3%)
+
+ 52%|█████▏    | 26/50 [03:55<03:20,  8.34s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 177
+INFO:root:# successes: 137 (77.4%)
+
+ 54%|█████▍    | 27/50 [04:02<03:02,  7.94s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 178
+INFO:root:# successes: 138 (77.5%)
+
+ 56%|█████▌    | 28/50 [04:10<03:00,  8.21s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 179
+INFO:root:# successes: 139 (77.7%)
+
+ 58%|█████▊    | 29/50 [04:17<02:42,  7.76s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 180
+INFO:root:# successes: 139 (77.2%)
+
+ 60%|██████    | 30/50 [04:31<03:12,  9.64s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 181
+INFO:root:# successes: 139 (76.8%)
+
+ 62%|██████▏   | 31/50 [04:45<03:28, 10.98s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 182
+INFO:root:# successes: 140 (76.9%)
+
+ 64%|██████▍   | 32/50 [04:52<02:54,  9.70s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 183
+INFO:root:# successes: 141 (77.0%)
+
+ 66%|██████▌   | 33/50 [05:00<02:34,  9.07s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 184
+INFO:root:# successes: 142 (77.2%)
+
+ 68%|██████▊   | 34/50 [05:07<02:15,  8.50s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 185
+INFO:root:# successes: 142 (76.8%)
+
+ 70%|███████   | 35/50 [05:21<02:31, 10.11s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 186
+INFO:root:# successes: 143 (76.9%)
+
+ 72%|███████▏  | 36/50 [05:28<02:08,  9.19s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 187
+INFO:root:# successes: 143 (76.5%)
+
+ 74%|███████▍  | 37/50 [05:42<02:17, 10.59s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 188
+INFO:root:# successes: 144 (76.6%)
+
+ 76%|███████▌  | 38/50 [05:51<02:02, 10.20s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 189
+INFO:root:# successes: 145 (76.7%)
+
+ 78%|███████▊  | 39/50 [05:59<01:44,  9.48s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 190
+INFO:root:# successes: 146 (76.8%)
+
+ 80%|████████  | 40/50 [06:08<01:35,  9.56s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 191
+INFO:root:# successes: 147 (77.0%)
+
+ 82%|████████▏ | 41/50 [06:16<01:19,  8.87s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 192
+INFO:root:# successes: 148 (77.1%)
+
+ 84%|████████▍ | 42/50 [06:22<01:05,  8.23s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 193
+INFO:root:# successes: 149 (77.2%)
+
+ 86%|████████▌ | 43/50 [06:30<00:55,  7.99s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 194
+INFO:root:# successes: 150 (77.3%)
+
+ 88%|████████▊ | 44/50 [06:40<00:52,  8.78s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 195
+INFO:root:# successes: 151 (77.4%)
+
+ 90%|█████████ | 45/50 [06:50<00:45,  9.06s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 196
+INFO:root:# successes: 152 (77.6%)
+
+ 92%|█████████▏| 46/50 [06:57<00:33,  8.35s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 197
+INFO:root:# successes: 153 (77.7%)
+
+ 94%|█████████▍| 47/50 [07:04<00:24,  8.10s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 198
+INFO:root:# successes: 154 (77.8%)
+
+ 96%|█████████▌| 48/50 [07:14<00:17,  8.53s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 199
+INFO:root:# successes: 155 (77.9%)
+
+ 98%|█████████▊| 49/50 [07:21<00:08,  8.21s/it][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 200
+INFO:root:# successes: 156 (78.0%)
+
+100%|██████████| 50/50 [07:29<00:00,  8.20s/it][A100%|██████████| 50/50 [07:29<00:00,  9.00s/it]
+INFO:root:Current task success rate: 0.82
+INFO:root:Current total success rate: 0.78
+ 40%|████      | 4/10 [31:02<45:11, 452.00s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 201
+INFO:root:# successes: 157 (78.1%)
+
+  2%|▏         | 1/50 [00:08<07:06,  8.71s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 202
+INFO:root:# successes: 158 (78.2%)
+
+  4%|▍         | 2/50 [00:16<06:26,  8.06s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 203
+INFO:root:# successes: 158 (77.8%)
+
+  6%|▌         | 3/50 [00:30<08:22, 10.69s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 204
+INFO:root:# successes: 159 (77.9%)
+
+  8%|▊         | 4/50 [00:38<07:31,  9.81s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 205
+INFO:root:# successes: 160 (78.0%)
+
+ 10%|█         | 5/50 [00:46<06:58,  9.30s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 206
+INFO:root:# successes: 161 (78.2%)
+
+ 12%|█▏        | 6/50 [00:55<06:31,  8.89s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 207
+INFO:root:# successes: 162 (78.3%)
+
+ 14%|█▍        | 7/50 [01:03<06:19,  8.82s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 208
+INFO:root:# successes: 163 (78.4%)
+
+ 16%|█▌        | 8/50 [01:11<06:01,  8.62s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 209
+INFO:root:# successes: 164 (78.5%)
+
+ 18%|█▊        | 9/50 [01:19<05:41,  8.33s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 210
+INFO:root:# successes: 165 (78.6%)
+
+ 20%|██        | 10/50 [01:27<05:22,  8.07s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 211
+INFO:root:# successes: 166 (78.7%)
+
+ 22%|██▏       | 11/50 [01:35<05:13,  8.03s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 212
+INFO:root:# successes: 166 (78.3%)
+
+ 24%|██▍       | 12/50 [01:49<06:14,  9.87s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 213
+INFO:root:# successes: 167 (78.4%)
+
+ 26%|██▌       | 13/50 [01:56<05:38,  9.15s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 214
+INFO:root:# successes: 167 (78.0%)
+
+ 28%|██▊       | 14/50 [02:10<06:25, 10.72s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 215
+INFO:root:# successes: 168 (78.1%)
+
+ 30%|███       | 15/50 [02:18<05:46,  9.89s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 216
+INFO:root:# successes: 169 (78.2%)
+
+ 32%|███▏      | 16/50 [02:29<05:39,  9.98s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 217
+INFO:root:# successes: 169 (77.9%)
+
+ 34%|███▍      | 17/50 [02:43<06:08, 11.15s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 218
+INFO:root:# successes: 170 (78.0%)
+
+ 36%|███▌      | 18/50 [02:51<05:29, 10.31s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 219
+INFO:root:# successes: 170 (77.6%)
+
+ 38%|███▊      | 19/50 [03:05<05:58, 11.58s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 220
+INFO:root:# successes: 171 (77.7%)
+
+ 40%|████      | 20/50 [03:13<05:15, 10.51s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 221
+INFO:root:# successes: 172 (77.8%)
+
+ 42%|████▏     | 21/50 [03:21<04:42,  9.74s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 222
+INFO:root:# successes: 173 (77.9%)
+
+ 44%|████▍     | 22/50 [03:30<04:19,  9.28s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 223
+INFO:root:# successes: 174 (78.0%)
+
+ 46%|████▌     | 23/50 [03:37<03:56,  8.76s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 224
+INFO:root:# successes: 174 (77.7%)
+
+ 48%|████▊     | 24/50 [03:51<04:27, 10.30s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 225
+INFO:root:# successes: 175 (77.8%)
+
+ 50%|█████     | 25/50 [03:58<03:55,  9.40s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 226
+INFO:root:# successes: 176 (77.9%)
+
+ 52%|█████▏    | 26/50 [04:06<03:31,  8.82s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 227
+INFO:root:# successes: 177 (78.0%)
+
+ 54%|█████▍    | 27/50 [04:13<03:13,  8.43s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 228
+INFO:root:# successes: 178 (78.1%)
+
+ 56%|█████▌    | 28/50 [04:22<03:03,  8.36s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 229
+INFO:root:# successes: 179 (78.2%)
+
+ 58%|█████▊    | 29/50 [04:29<02:52,  8.23s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 230
+INFO:root:# successes: 180 (78.3%)
+
+ 60%|██████    | 30/50 [04:37<02:40,  8.03s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 231
+INFO:root:# successes: 180 (77.9%)
+
+ 62%|██████▏   | 31/50 [04:51<03:06,  9.82s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 232
+INFO:root:# successes: 181 (78.0%)
+
+ 64%|██████▍   | 32/50 [04:59<02:45,  9.22s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 233
+INFO:root:# successes: 181 (77.7%)
+
+ 66%|██████▌   | 33/50 [05:13<03:03, 10.79s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 234
+INFO:root:# successes: 182 (77.8%)
+
+ 68%|██████▊   | 34/50 [05:21<02:40, 10.00s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 235
+INFO:root:# successes: 183 (77.9%)
+
+ 70%|███████   | 35/50 [05:29<02:17,  9.14s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 236
+INFO:root:# successes: 183 (77.5%)
+
+ 72%|███████▏  | 36/50 [05:42<02:27, 10.56s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 237
+INFO:root:# successes: 184 (77.6%)
+
+ 74%|███████▍  | 37/50 [05:51<02:07,  9.81s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 238
+INFO:root:# successes: 185 (77.7%)
+
+ 76%|███████▌  | 38/50 [05:58<01:50,  9.18s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 239
+INFO:root:# successes: 186 (77.8%)
+
+ 78%|███████▊  | 39/50 [06:06<01:37,  8.88s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 240
+INFO:root:# successes: 187 (77.9%)
+
+ 80%|████████  | 40/50 [06:15<01:26,  8.66s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 241
+INFO:root:# successes: 188 (78.0%)
+
+ 82%|████████▏ | 41/50 [06:26<01:24,  9.39s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 242
+INFO:root:# successes: 189 (78.1%)
+
+ 84%|████████▍ | 42/50 [06:33<01:10,  8.83s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 243
+INFO:root:# successes: 189 (77.8%)
+
+ 86%|████████▌ | 43/50 [06:47<01:12, 10.32s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 244
+INFO:root:# successes: 190 (77.9%)
+
+ 88%|████████▊ | 44/50 [06:58<01:03, 10.62s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 245
+INFO:root:# successes: 190 (77.6%)
+
+ 90%|█████████ | 45/50 [07:12<00:58, 11.65s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 246
+INFO:root:# successes: 191 (77.6%)
+
+ 92%|█████████▏| 46/50 [07:20<00:42, 10.53s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 247
+INFO:root:# successes: 192 (77.7%)
+
+ 94%|█████████▍| 47/50 [07:29<00:29,  9.86s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 248
+INFO:root:# successes: 193 (77.8%)
+
+ 96%|█████████▌| 48/50 [07:36<00:18,  9.22s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 249
+INFO:root:# successes: 194 (77.9%)
+
+ 98%|█████████▊| 49/50 [07:44<00:08,  8.64s/it][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 250
+INFO:root:# successes: 195 (78.0%)
+
+100%|██████████| 50/50 [07:56<00:00,  9.82s/it][A100%|██████████| 50/50 [07:56<00:00,  9.53s/it]
+INFO:root:Current task success rate: 0.78
+INFO:root:Current total success rate: 0.78
+ 50%|█████     | 5/10 [38:59<38:26, 461.22s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 251
+INFO:root:# successes: 196 (78.1%)
+
+  2%|▏         | 1/50 [00:09<08:05,  9.92s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 252
+INFO:root:# successes: 196 (77.8%)
+
+  4%|▍         | 2/50 [00:24<10:07, 12.66s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 253
+INFO:root:# successes: 197 (77.9%)
+
+  6%|▌         | 3/50 [00:32<08:11, 10.46s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 254
+INFO:root:# successes: 198 (78.0%)
+
+  8%|▊         | 4/50 [00:42<07:57, 10.39s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 255
+INFO:root:# successes: 199 (78.0%)
+
+ 10%|█         | 5/50 [00:52<07:42, 10.28s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 256
+INFO:root:# successes: 199 (77.7%)
+
+ 12%|█▏        | 6/50 [01:07<08:36, 11.74s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 257
+INFO:root:# successes: 200 (77.8%)
+
+ 14%|█▍        | 7/50 [01:17<07:57, 11.11s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 258
+INFO:root:# successes: 201 (77.9%)
+
+ 16%|█▌        | 8/50 [01:26<07:20, 10.49s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 259
+INFO:root:# successes: 202 (78.0%)
+
+ 18%|█▊        | 9/50 [01:33<06:30,  9.53s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 260
+INFO:root:# successes: 203 (78.1%)
+
+ 20%|██        | 10/50 [01:40<05:50,  8.75s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 261
+INFO:root:# successes: 203 (77.8%)
+
+ 22%|██▏       | 11/50 [01:55<06:58, 10.72s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 262
+INFO:root:# successes: 204 (77.9%)
+
+ 24%|██▍       | 12/50 [02:10<07:31, 11.87s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 263
+INFO:root:# successes: 204 (77.6%)
+
+ 26%|██▌       | 13/50 [02:24<07:49, 12.69s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 264
+INFO:root:# successes: 205 (77.7%)
+
+ 28%|██▊       | 14/50 [02:32<06:38, 11.07s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 265
+INFO:root:# successes: 206 (77.7%)
+
+ 30%|███       | 15/50 [02:44<06:35, 11.30s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 266
+INFO:root:# successes: 207 (77.8%)
+
+ 32%|███▏      | 16/50 [02:53<06:05, 10.75s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 267
+INFO:root:# successes: 208 (77.9%)
+
+ 34%|███▍      | 17/50 [03:00<05:17,  9.61s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 268
+INFO:root:# successes: 209 (78.0%)
+
+ 36%|███▌      | 18/50 [03:10<05:09,  9.66s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 269
+INFO:root:# successes: 209 (77.7%)
+
+ 38%|███▊      | 19/50 [03:25<05:49, 11.27s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 270
+INFO:root:# successes: 210 (77.8%)
+
+ 40%|████      | 20/50 [03:31<04:56,  9.88s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 271
+INFO:root:# successes: 211 (77.9%)
+
+ 42%|████▏     | 21/50 [03:39<04:27,  9.22s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 272
+INFO:root:# successes: 212 (77.9%)
+
+ 44%|████▍     | 22/50 [03:47<04:03,  8.71s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 273
+INFO:root:# successes: 213 (78.0%)
+
+ 46%|████▌     | 23/50 [03:54<03:46,  8.38s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 274
+INFO:root:# successes: 214 (78.1%)
+
+ 48%|████▊     | 24/50 [04:02<03:34,  8.27s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 275
+INFO:root:# successes: 215 (78.2%)
+
+ 50%|█████     | 25/50 [04:10<03:23,  8.13s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 276
+INFO:root:# successes: 216 (78.3%)
+
+ 52%|█████▏    | 26/50 [04:21<03:35,  8.99s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 277
+INFO:root:# successes: 217 (78.3%)
+
+ 54%|█████▍    | 27/50 [04:29<03:22,  8.79s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 278
+INFO:root:# successes: 218 (78.4%)
+
+ 56%|█████▌    | 28/50 [04:36<03:01,  8.27s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 279
+INFO:root:# successes: 219 (78.5%)
+
+ 58%|█████▊    | 29/50 [04:44<02:48,  8.04s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 280
+INFO:root:# successes: 220 (78.6%)
+
+ 60%|██████    | 30/50 [04:51<02:35,  7.80s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 281
+INFO:root:# successes: 220 (78.3%)
+
+ 62%|██████▏   | 31/50 [05:06<03:08,  9.93s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 282
+INFO:root:# successes: 221 (78.4%)
+
+ 64%|██████▍   | 32/50 [05:14<02:48,  9.36s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 283
+INFO:root:# successes: 222 (78.4%)
+
+ 66%|██████▌   | 33/50 [05:22<02:30,  8.87s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 284
+INFO:root:# successes: 223 (78.5%)
+
+ 68%|██████▊   | 34/50 [05:29<02:14,  8.41s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 285
+INFO:root:# successes: 224 (78.6%)
+
+ 70%|███████   | 35/50 [05:40<02:16,  9.13s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 286
+INFO:root:# successes: 225 (78.7%)
+
+ 72%|███████▏  | 36/50 [05:48<02:02,  8.75s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 287
+INFO:root:# successes: 226 (78.7%)
+
+ 74%|███████▍  | 37/50 [05:56<01:50,  8.47s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 288
+INFO:root:# successes: 227 (78.8%)
+
+ 76%|███████▌  | 38/50 [06:03<01:36,  8.08s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 289
+INFO:root:# successes: 228 (78.9%)
+
+ 78%|███████▊  | 39/50 [06:14<01:38,  8.98s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 290
+INFO:root:# successes: 229 (79.0%)
+
+ 80%|████████  | 40/50 [06:21<01:24,  8.40s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 291
+INFO:root:# successes: 230 (79.0%)
+
+ 82%|████████▏ | 41/50 [06:33<01:25,  9.46s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 292
+INFO:root:# successes: 231 (79.1%)
+
+ 84%|████████▍ | 42/50 [06:39<01:08,  8.55s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 293
+INFO:root:# successes: 231 (78.8%)
+
+ 86%|████████▌ | 43/50 [06:54<01:12, 10.29s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 294
+INFO:root:# successes: 232 (78.9%)
+
+ 88%|████████▊ | 44/50 [07:01<00:57,  9.51s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 295
+INFO:root:# successes: 233 (79.0%)
+
+ 90%|█████████ | 45/50 [07:15<00:53, 10.61s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 296
+INFO:root:# successes: 234 (79.1%)
+
+ 92%|█████████▏| 46/50 [07:29<00:46, 11.61s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 297
+INFO:root:# successes: 235 (79.1%)
+
+ 94%|█████████▍| 47/50 [07:39<00:33, 11.32s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 298
+INFO:root:# successes: 236 (79.2%)
+
+ 96%|█████████▌| 48/50 [07:47<00:20, 10.42s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 299
+INFO:root:# successes: 237 (79.3%)
+
+ 98%|█████████▊| 49/50 [07:55<00:09,  9.59s/it][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 300
+INFO:root:# successes: 238 (79.3%)
+
+100%|██████████| 50/50 [08:03<00:00,  8.95s/it][A100%|██████████| 50/50 [08:03<00:00,  9.66s/it]
+INFO:root:Current task success rate: 0.86
+INFO:root:Current total success rate: 0.7933333333333333
+ 60%|██████    | 6/10 [47:03<31:15, 468.97s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 301
+INFO:root:# successes: 238 (79.1%)
+
+  2%|▏         | 1/50 [00:14<11:28, 14.04s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 302
+INFO:root:# successes: 239 (79.1%)
+
+  4%|▍         | 2/50 [00:22<08:32, 10.69s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 303
+INFO:root:# successes: 240 (79.2%)
+
+  6%|▌         | 3/50 [00:29<07:14,  9.25s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 304
+INFO:root:# successes: 241 (79.3%)
+
+  8%|▊         | 4/50 [00:37<06:38,  8.67s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 305
+INFO:root:# successes: 242 (79.3%)
+
+ 10%|█         | 5/50 [00:46<06:25,  8.57s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 306
+INFO:root:# successes: 243 (79.4%)
+
+ 12%|█▏        | 6/50 [00:54<06:10,  8.41s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 307
+INFO:root:# successes: 244 (79.5%)
+
+ 14%|█▍        | 7/50 [01:02<05:55,  8.27s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 308
+INFO:root:# successes: 245 (79.5%)
+
+ 16%|█▌        | 8/50 [01:10<05:48,  8.31s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 309
+INFO:root:# successes: 245 (79.3%)
+
+ 18%|█▊        | 9/50 [01:24<06:52, 10.05s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 310
+INFO:root:# successes: 245 (79.0%)
+
+ 20%|██        | 10/50 [01:38<07:31, 11.30s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 311
+INFO:root:# successes: 246 (79.1%)
+
+ 22%|██▏       | 11/50 [01:46<06:40, 10.28s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 312
+INFO:root:# successes: 246 (78.8%)
+
+ 24%|██▍       | 12/50 [02:00<07:12, 11.38s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 313
+INFO:root:# successes: 247 (78.9%)
+
+ 26%|██▌       | 13/50 [02:09<06:32, 10.61s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 314
+INFO:root:# successes: 248 (79.0%)
+
+ 28%|██▊       | 14/50 [02:17<05:52,  9.78s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 315
+INFO:root:# successes: 249 (79.0%)
+
+ 30%|███       | 15/50 [02:25<05:25,  9.29s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 316
+INFO:root:# successes: 250 (79.1%)
+
+ 32%|███▏      | 16/50 [02:33<05:00,  8.83s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 317
+INFO:root:# successes: 251 (79.2%)
+
+ 34%|███▍      | 17/50 [02:40<04:37,  8.41s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 318
+INFO:root:# successes: 252 (79.2%)
+
+ 36%|███▌      | 18/50 [02:48<04:28,  8.40s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 319
+INFO:root:# successes: 253 (79.3%)
+
+ 38%|███▊      | 19/50 [02:55<04:08,  8.03s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 320
+INFO:root:# successes: 254 (79.4%)
+
+ 40%|████      | 20/50 [03:04<04:04,  8.14s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 321
+INFO:root:# successes: 255 (79.4%)
+
+ 42%|████▏     | 21/50 [03:12<03:54,  8.09s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 322
+INFO:root:# successes: 256 (79.5%)
+
+ 44%|████▍     | 22/50 [03:20<03:45,  8.07s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 323
+INFO:root:# successes: 257 (79.6%)
+
+ 46%|████▌     | 23/50 [03:27<03:32,  7.87s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 324
+INFO:root:# successes: 257 (79.3%)
+
+ 48%|████▊     | 24/50 [03:41<04:11,  9.68s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 325
+INFO:root:# successes: 258 (79.4%)
+
+ 50%|█████     | 25/50 [03:52<04:10, 10.01s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 326
+INFO:root:# successes: 259 (79.4%)
+
+ 52%|█████▏    | 26/50 [03:59<03:42,  9.26s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 327
+INFO:root:# successes: 260 (79.5%)
+
+ 54%|█████▍    | 27/50 [04:08<03:24,  8.89s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 328
+INFO:root:# successes: 261 (79.6%)
+
+ 56%|█████▌    | 28/50 [04:17<03:18,  9.02s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 329
+INFO:root:# successes: 262 (79.6%)
+
+ 58%|█████▊    | 29/50 [04:27<03:19,  9.48s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 330
+INFO:root:# successes: 263 (79.7%)
+
+ 60%|██████    | 30/50 [04:38<03:15,  9.79s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 331
+INFO:root:# successes: 264 (79.8%)
+
+ 62%|██████▏   | 31/50 [04:46<02:55,  9.21s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 332
+INFO:root:# successes: 265 (79.8%)
+
+ 64%|██████▍   | 32/50 [04:54<02:38,  8.79s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 333
+INFO:root:# successes: 266 (79.9%)
+
+ 66%|██████▌   | 33/50 [05:06<02:50, 10.01s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 334
+INFO:root:# successes: 267 (79.9%)
+
+ 68%|██████▊   | 34/50 [05:14<02:29,  9.36s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 335
+INFO:root:# successes: 268 (80.0%)
+
+ 70%|███████   | 35/50 [05:22<02:15,  9.01s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 336
+INFO:root:# successes: 269 (80.1%)
+
+ 72%|███████▏  | 36/50 [05:30<02:01,  8.69s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 337
+INFO:root:# successes: 270 (80.1%)
+
+ 74%|███████▍  | 37/50 [05:40<01:57,  9.05s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 338
+INFO:root:# successes: 271 (80.2%)
+
+ 76%|███████▌  | 38/50 [05:50<01:50,  9.23s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 339
+INFO:root:# successes: 272 (80.2%)
+
+ 78%|███████▊  | 39/50 [05:58<01:37,  8.91s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 340
+INFO:root:# successes: 273 (80.3%)
+
+ 80%|████████  | 40/50 [06:06<01:25,  8.55s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 341
+INFO:root:# successes: 273 (80.1%)
+
+ 82%|████████▏ | 41/50 [06:20<01:31, 10.13s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 342
+INFO:root:# successes: 274 (80.1%)
+
+ 84%|████████▍ | 42/50 [06:28<01:16,  9.60s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 343
+INFO:root:# successes: 274 (79.9%)
+
+ 86%|████████▌ | 43/50 [06:42<01:16, 10.88s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 344
+INFO:root:# successes: 274 (79.7%)
+
+ 88%|████████▊ | 44/50 [06:56<01:11, 11.83s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 345
+INFO:root:# successes: 275 (79.7%)
+
+ 90%|█████████ | 45/50 [07:04<00:53, 10.78s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 346
+INFO:root:# successes: 276 (79.8%)
+
+ 92%|█████████▏| 46/50 [07:12<00:39,  9.91s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 347
+INFO:root:# successes: 277 (79.8%)
+
+ 94%|█████████▍| 47/50 [07:21<00:28,  9.57s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 348
+INFO:root:# successes: 278 (79.9%)
+
+ 96%|█████████▌| 48/50 [07:29<00:18,  9.19s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 349
+INFO:root:# successes: 278 (79.7%)
+
+ 98%|█████████▊| 49/50 [07:43<00:10, 10.61s/it][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 350
+INFO:root:# successes: 279 (79.7%)
+
+100%|██████████| 50/50 [07:51<00:00,  9.84s/it][A100%|██████████| 50/50 [07:51<00:00,  9.43s/it]
+INFO:root:Current task success rate: 0.82
+INFO:root:Current total success rate: 0.7971428571428572
+ 70%|███████   | 7/10 [54:56<23:30, 470.16s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 351
+INFO:root:# successes: 280 (79.8%)
+
+  2%|▏         | 1/50 [00:10<08:50, 10.82s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 352
+INFO:root:# successes: 281 (79.8%)
+
+  4%|▍         | 2/50 [00:19<07:43,  9.65s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 353
+INFO:root:# successes: 282 (79.9%)
+
+  6%|▌         | 3/50 [00:27<07:03,  9.01s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 354
+INFO:root:# successes: 283 (79.9%)
+
+  8%|▊         | 4/50 [00:36<06:38,  8.66s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 355
+INFO:root:# successes: 284 (80.0%)
+
+ 10%|█         | 5/50 [00:42<05:56,  7.92s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 356
+INFO:root:# successes: 285 (80.1%)
+
+ 12%|█▏        | 6/50 [00:50<05:49,  7.95s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 357
+INFO:root:# successes: 286 (80.1%)
+
+ 14%|█▍        | 7/50 [00:57<05:32,  7.73s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 358
+INFO:root:# successes: 287 (80.2%)
+
+ 16%|█▌        | 8/50 [01:04<05:06,  7.31s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 359
+INFO:root:# successes: 288 (80.2%)
+
+ 18%|█▊        | 9/50 [01:11<05:01,  7.35s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 360
+INFO:root:# successes: 289 (80.3%)
+
+ 20%|██        | 10/50 [01:19<05:02,  7.55s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 361
+INFO:root:# successes: 290 (80.3%)
+
+ 22%|██▏       | 11/50 [01:27<04:58,  7.65s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 362
+INFO:root:# successes: 290 (80.1%)
+
+ 24%|██▍       | 12/50 [01:41<06:01,  9.51s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 363
+INFO:root:# successes: 291 (80.2%)
+
+ 26%|██▌       | 13/50 [01:48<05:27,  8.85s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 364
+INFO:root:# successes: 292 (80.2%)
+
+ 28%|██▊       | 14/50 [01:56<05:10,  8.64s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 365
+INFO:root:# successes: 293 (80.3%)
+
+ 30%|███       | 15/50 [02:04<04:54,  8.41s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 366
+INFO:root:# successes: 293 (80.1%)
+
+ 32%|███▏      | 16/50 [02:18<05:42, 10.08s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 367
+INFO:root:# successes: 293 (79.8%)
+
+ 34%|███▍      | 17/50 [02:32<06:11, 11.26s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 368
+INFO:root:# successes: 294 (79.9%)
+
+ 36%|███▌      | 18/50 [02:43<05:55, 11.10s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 369
+INFO:root:# successes: 295 (79.9%)
+
+ 38%|███▊      | 19/50 [02:51<05:11, 10.04s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 370
+INFO:root:# successes: 295 (79.7%)
+
+ 40%|████      | 20/50 [03:05<05:37, 11.26s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 371
+INFO:root:# successes: 296 (79.8%)
+
+ 42%|████▏     | 21/50 [03:12<04:55, 10.20s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 372
+INFO:root:# successes: 297 (79.8%)
+
+ 44%|████▍     | 22/50 [03:20<04:24,  9.46s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 373
+INFO:root:# successes: 298 (79.9%)
+
+ 46%|████▌     | 23/50 [03:27<03:56,  8.75s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 374
+INFO:root:# successes: 299 (79.9%)
+
+ 48%|████▊     | 24/50 [03:39<04:09,  9.58s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 375
+INFO:root:# successes: 299 (79.7%)
+
+ 50%|█████     | 25/50 [03:53<04:32, 10.89s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 376
+INFO:root:# successes: 300 (79.8%)
+
+ 52%|█████▏    | 26/50 [04:00<03:58,  9.94s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 377
+INFO:root:# successes: 301 (79.8%)
+
+ 54%|█████▍    | 27/50 [04:08<03:34,  9.32s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 378
+INFO:root:# successes: 302 (79.9%)
+
+ 56%|█████▌    | 28/50 [04:16<03:14,  8.86s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 379
+INFO:root:# successes: 303 (79.9%)
+
+ 58%|█████▊    | 29/50 [04:24<02:57,  8.44s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 380
+INFO:root:# successes: 304 (80.0%)
+
+ 60%|██████    | 30/50 [04:31<02:44,  8.22s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 381
+INFO:root:# successes: 305 (80.1%)
+
+ 62%|██████▏   | 31/50 [04:42<02:48,  8.86s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 382
+INFO:root:# successes: 306 (80.1%)
+
+ 64%|██████▍   | 32/50 [04:50<02:38,  8.78s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 383
+INFO:root:# successes: 307 (80.2%)
+
+ 66%|██████▌   | 33/50 [04:58<02:26,  8.64s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 384
+INFO:root:# successes: 308 (80.2%)
+
+ 68%|██████▊   | 34/50 [05:06<02:14,  8.40s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 385
+INFO:root:# successes: 309 (80.3%)
+
+ 70%|███████   | 35/50 [05:17<02:17,  9.15s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 386
+INFO:root:# successes: 310 (80.3%)
+
+ 72%|███████▏  | 36/50 [05:27<02:11,  9.36s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 387
+INFO:root:# successes: 311 (80.4%)
+
+ 74%|███████▍  | 37/50 [05:35<01:55,  8.87s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 388
+INFO:root:# successes: 312 (80.4%)
+
+ 76%|███████▌  | 38/50 [05:43<01:43,  8.61s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 389
+INFO:root:# successes: 313 (80.5%)
+
+ 78%|███████▊  | 39/50 [05:51<01:32,  8.38s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 390
+INFO:root:# successes: 314 (80.5%)
+
+ 80%|████████  | 40/50 [05:58<01:20,  8.03s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 391
+INFO:root:# successes: 315 (80.6%)
+
+ 82%|████████▏ | 41/50 [06:06<01:11,  7.96s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 392
+INFO:root:# successes: 316 (80.6%)
+
+ 84%|████████▍ | 42/50 [06:14<01:04,  8.01s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 393
+INFO:root:# successes: 317 (80.7%)
+
+ 86%|████████▌ | 43/50 [06:21<00:53,  7.71s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 394
+INFO:root:# successes: 318 (80.7%)
+
+ 88%|████████▊ | 44/50 [06:29<00:47,  7.84s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 395
+INFO:root:# successes: 318 (80.5%)
+
+ 90%|█████████ | 45/50 [06:43<00:48,  9.65s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 396
+INFO:root:# successes: 319 (80.6%)
+
+ 92%|█████████▏| 46/50 [06:50<00:35,  8.86s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 397
+INFO:root:# successes: 320 (80.6%)
+
+ 94%|█████████▍| 47/50 [07:00<00:27,  9.27s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 398
+INFO:root:# successes: 321 (80.7%)
+
+ 96%|█████████▌| 48/50 [07:07<00:17,  8.66s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 399
+INFO:root:# successes: 322 (80.7%)
+
+ 98%|█████████▊| 49/50 [07:17<00:08,  8.99s/it][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 400
+INFO:root:# successes: 323 (80.8%)
+
+100%|██████████| 50/50 [07:25<00:00,  8.83s/it][A100%|██████████| 50/50 [07:25<00:00,  8.92s/it]
+INFO:root:Current task success rate: 0.88
+INFO:root:Current total success rate: 0.8075
+ 80%|████████  | 8/10 [1:02:23<15:25, 462.76s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 401
+INFO:root:# successes: 324 (80.8%)
+
+  2%|▏         | 1/50 [00:08<06:39,  8.16s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 402
+INFO:root:# successes: 325 (80.8%)
+
+  4%|▍         | 2/50 [00:16<06:38,  8.31s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 403
+INFO:root:# successes: 326 (80.9%)
+
+  6%|▌         | 3/50 [00:24<06:26,  8.22s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 404
+INFO:root:# successes: 327 (80.9%)
+
+  8%|▊         | 4/50 [00:32<06:17,  8.21s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 405
+INFO:root:# successes: 328 (81.0%)
+
+ 10%|█         | 5/50 [00:41<06:10,  8.24s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 406
+INFO:root:# successes: 329 (81.0%)
+
+ 12%|█▏        | 6/50 [00:49<06:01,  8.22s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 407
+INFO:root:# successes: 330 (81.1%)
+
+ 14%|█▍        | 7/50 [00:57<05:58,  8.34s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 408
+INFO:root:# successes: 331 (81.1%)
+
+ 16%|█▌        | 8/50 [01:05<05:45,  8.24s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 409
+INFO:root:# successes: 332 (81.2%)
+
+ 18%|█▊        | 9/50 [01:14<05:42,  8.35s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 410
+INFO:root:# successes: 333 (81.2%)
+
+ 20%|██        | 10/50 [01:23<05:37,  8.44s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 411
+INFO:root:# successes: 334 (81.3%)
+
+ 22%|██▏       | 11/50 [01:31<05:21,  8.25s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 412
+INFO:root:# successes: 335 (81.3%)
+
+ 24%|██▍       | 12/50 [01:38<04:59,  7.88s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 413
+INFO:root:# successes: 336 (81.4%)
+
+ 26%|██▌       | 13/50 [01:46<04:53,  7.93s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 414
+INFO:root:# successes: 337 (81.4%)
+
+ 28%|██▊       | 14/50 [01:54<04:47,  7.99s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 415
+INFO:root:# successes: 338 (81.4%)
+
+ 30%|███       | 15/50 [02:02<04:38,  7.95s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 416
+INFO:root:# successes: 339 (81.5%)
+
+ 32%|███▏      | 16/50 [02:10<04:34,  8.06s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 417
+INFO:root:# successes: 340 (81.5%)
+
+ 34%|███▍      | 17/50 [02:18<04:29,  8.18s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 418
+INFO:root:# successes: 341 (81.6%)
+
+ 36%|███▌      | 18/50 [02:27<04:27,  8.36s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 419
+INFO:root:# successes: 342 (81.6%)
+
+ 38%|███▊      | 19/50 [02:35<04:12,  8.16s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 420
+INFO:root:# successes: 343 (81.7%)
+
+ 40%|████      | 20/50 [02:43<04:02,  8.10s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 421
+INFO:root:# successes: 344 (81.7%)
+
+ 42%|████▏     | 21/50 [02:52<04:02,  8.35s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 422
+INFO:root:# successes: 345 (81.8%)
+
+ 44%|████▍     | 22/50 [03:00<03:51,  8.26s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 423
+INFO:root:# successes: 346 (81.8%)
+
+ 46%|████▌     | 23/50 [03:08<03:44,  8.33s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 424
+INFO:root:# successes: 347 (81.8%)
+
+ 48%|████▊     | 24/50 [03:16<03:30,  8.11s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 425
+INFO:root:# successes: 347 (81.6%)
+
+ 50%|█████     | 25/50 [03:30<04:09, 10.00s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 426
+INFO:root:# successes: 348 (81.7%)
+
+ 52%|█████▏    | 26/50 [03:39<03:52,  9.67s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 427
+INFO:root:# successes: 349 (81.7%)
+
+ 54%|█████▍    | 27/50 [03:49<03:40,  9.60s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 428
+INFO:root:# successes: 350 (81.8%)
+
+ 56%|█████▌    | 28/50 [03:57<03:23,  9.23s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 429
+INFO:root:# successes: 351 (81.8%)
+
+ 58%|█████▊    | 29/50 [04:05<03:08,  8.96s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 430
+INFO:root:# successes: 352 (81.9%)
+
+ 60%|██████    | 30/50 [04:13<02:53,  8.66s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 431
+INFO:root:# successes: 353 (81.9%)
+
+ 62%|██████▏   | 31/50 [04:22<02:46,  8.79s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 432
+INFO:root:# successes: 354 (81.9%)
+
+ 64%|██████▍   | 32/50 [04:32<02:42,  9.04s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 433
+INFO:root:# successes: 355 (82.0%)
+
+ 66%|██████▌   | 33/50 [04:40<02:28,  8.74s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 434
+INFO:root:# successes: 356 (82.0%)
+
+ 68%|██████▊   | 34/50 [04:49<02:19,  8.69s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 435
+INFO:root:# successes: 357 (82.1%)
+
+ 70%|███████   | 35/50 [04:56<02:06,  8.42s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 436
+INFO:root:# successes: 358 (82.1%)
+
+ 72%|███████▏  | 36/50 [05:05<01:58,  8.49s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 437
+INFO:root:# successes: 359 (82.2%)
+
+ 74%|███████▍  | 37/50 [05:13<01:47,  8.30s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 438
+INFO:root:# successes: 360 (82.2%)
+
+ 76%|███████▌  | 38/50 [05:21<01:39,  8.29s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 439
+INFO:root:# successes: 361 (82.2%)
+
+ 78%|███████▊  | 39/50 [05:30<01:31,  8.32s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 440
+INFO:root:# successes: 362 (82.3%)
+
+ 80%|████████  | 40/50 [05:38<01:24,  8.41s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 441
+INFO:root:# successes: 362 (82.1%)
+
+ 82%|████████▏ | 41/50 [05:52<01:31, 10.16s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 442
+INFO:root:# successes: 363 (82.1%)
+
+ 84%|████████▍ | 42/50 [06:01<01:16,  9.56s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 443
+INFO:root:# successes: 364 (82.2%)
+
+ 86%|████████▌ | 43/50 [06:11<01:09,  9.90s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 444
+INFO:root:# successes: 365 (82.2%)
+
+ 88%|████████▊ | 44/50 [06:21<00:58,  9.72s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 445
+INFO:root:# successes: 366 (82.2%)
+
+ 90%|█████████ | 45/50 [06:29<00:46,  9.27s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 446
+INFO:root:# successes: 367 (82.3%)
+
+ 92%|█████████▏| 46/50 [06:37<00:35,  8.93s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 447
+INFO:root:# successes: 367 (82.1%)
+
+ 94%|█████████▍| 47/50 [06:51<00:31, 10.46s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 448
+INFO:root:# successes: 368 (82.1%)
+
+ 96%|█████████▌| 48/50 [07:01<00:20, 10.29s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 449
+INFO:root:# successes: 369 (82.2%)
+
+ 98%|█████████▊| 49/50 [07:11<00:10, 10.20s/it][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 450
+INFO:root:# successes: 369 (82.0%)
+
+100%|██████████| 50/50 [07:25<00:00, 11.43s/it][A100%|██████████| 50/50 [07:25<00:00,  8.91s/it]
+INFO:root:Current task success rate: 0.92
+INFO:root:Current total success rate: 0.82
+ 90%|█████████ | 9/10 [1:09:49<07:37, 457.71s/it][Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/openpi/third_party/libero/libero/libero/../datasets does not exist!
+
+  0%|          | 0/50 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 451
+INFO:root:# successes: 370 (82.0%)
+
+  2%|▏         | 1/50 [00:07<06:17,  7.71s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 2...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 452
+INFO:root:# successes: 371 (82.1%)
+
+  4%|▍         | 2/50 [00:14<05:43,  7.15s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 3...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 453
+INFO:root:# successes: 372 (82.1%)
+
+  6%|▌         | 3/50 [00:23<06:07,  7.82s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 4...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 454
+INFO:root:# successes: 373 (82.2%)
+
+  8%|▊         | 4/50 [00:29<05:43,  7.46s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 5...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 455
+INFO:root:# successes: 374 (82.2%)
+
+ 10%|█         | 5/50 [00:37<05:33,  7.42s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 6...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 456
+INFO:root:# successes: 375 (82.2%)
+
+ 12%|█▏        | 6/50 [00:44<05:25,  7.40s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 7...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 457
+INFO:root:# successes: 376 (82.3%)
+
+ 14%|█▍        | 7/50 [00:52<05:24,  7.54s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 8...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 458
+INFO:root:# successes: 377 (82.3%)
+
+ 16%|█▌        | 8/50 [01:00<05:24,  7.72s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 9...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 459
+INFO:root:# successes: 378 (82.4%)
+
+ 18%|█▊        | 9/50 [01:07<04:59,  7.32s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 10...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 460
+INFO:root:# successes: 379 (82.4%)
+
+ 20%|██        | 10/50 [01:14<04:54,  7.35s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 11...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 461
+INFO:root:# successes: 380 (82.4%)
+
+ 22%|██▏       | 11/50 [01:21<04:45,  7.33s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 12...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 462
+INFO:root:# successes: 381 (82.5%)
+
+ 24%|██▍       | 12/50 [01:29<04:41,  7.40s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 13...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 463
+INFO:root:# successes: 382 (82.5%)
+
+ 26%|██▌       | 13/50 [01:36<04:27,  7.24s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 14...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 464
+INFO:root:# successes: 383 (82.5%)
+
+ 28%|██▊       | 14/50 [01:43<04:24,  7.34s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 15...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 465
+INFO:root:# successes: 383 (82.4%)
+
+ 30%|███       | 15/50 [01:57<05:24,  9.26s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 16...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 466
+INFO:root:# successes: 384 (82.4%)
+
+ 32%|███▏      | 16/50 [02:04<04:52,  8.61s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 17...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 467
+INFO:root:# successes: 385 (82.4%)
+
+ 34%|███▍      | 17/50 [02:12<04:37,  8.40s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 18...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 468
+INFO:root:# successes: 386 (82.5%)
+
+ 36%|███▌      | 18/50 [02:19<04:19,  8.11s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 19...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 469
+INFO:root:# successes: 387 (82.5%)
+
+ 38%|███▊      | 19/50 [02:27<04:05,  7.91s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 20...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 470
+INFO:root:# successes: 388 (82.6%)
+
+ 40%|████      | 20/50 [02:37<04:16,  8.56s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 21...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 471
+INFO:root:# successes: 389 (82.6%)
+
+ 42%|████▏     | 21/50 [02:44<03:53,  8.06s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 22...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 472
+INFO:root:# successes: 390 (82.6%)
+
+ 44%|████▍     | 22/50 [02:50<03:32,  7.58s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 23...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 473
+INFO:root:# successes: 391 (82.7%)
+
+ 46%|████▌     | 23/50 [02:58<03:22,  7.49s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 24...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 474
+INFO:root:# successes: 392 (82.7%)
+
+ 48%|████▊     | 24/50 [03:05<03:10,  7.33s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 25...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 475
+INFO:root:# successes: 393 (82.7%)
+
+ 50%|█████     | 25/50 [03:12<03:00,  7.22s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 26...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 476
+INFO:root:# successes: 394 (82.8%)
+
+ 52%|█████▏    | 26/50 [03:19<02:53,  7.25s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 27...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 477
+INFO:root:# successes: 395 (82.8%)
+
+ 54%|█████▍    | 27/50 [03:26<02:43,  7.11s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 28...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 478
+INFO:root:# successes: 396 (82.8%)
+
+ 56%|█████▌    | 28/50 [03:33<02:38,  7.22s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 29...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 479
+INFO:root:# successes: 397 (82.9%)
+
+ 58%|█████▊    | 29/50 [03:40<02:29,  7.11s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 30...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 480
+INFO:root:# successes: 398 (82.9%)
+
+ 60%|██████    | 30/50 [03:47<02:20,  7.05s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 31...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 481
+INFO:root:# successes: 399 (83.0%)
+
+ 62%|██████▏   | 31/50 [03:54<02:14,  7.07s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 32...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 482
+INFO:root:# successes: 400 (83.0%)
+
+ 64%|██████▍   | 32/50 [04:01<02:06,  7.01s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 33...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 483
+INFO:root:# successes: 401 (83.0%)
+
+ 66%|██████▌   | 33/50 [04:08<01:58,  6.97s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 34...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 484
+INFO:root:# successes: 402 (83.1%)
+
+ 68%|██████▊   | 34/50 [04:17<02:00,  7.52s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 35...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 485
+INFO:root:# successes: 403 (83.1%)
+
+ 70%|███████   | 35/50 [04:24<01:51,  7.41s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 36...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 486
+INFO:root:# successes: 404 (83.1%)
+
+ 72%|███████▏  | 36/50 [04:31<01:41,  7.25s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 37...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 487
+INFO:root:# successes: 405 (83.2%)
+
+ 74%|███████▍  | 37/50 [04:38<01:35,  7.32s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 38...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 488
+INFO:root:# successes: 406 (83.2%)
+
+ 76%|███████▌  | 38/50 [04:45<01:26,  7.19s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 39...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 489
+INFO:root:# successes: 407 (83.2%)
+
+ 78%|███████▊  | 39/50 [04:51<01:16,  6.95s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 40...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 490
+INFO:root:# successes: 408 (83.3%)
+
+ 80%|████████  | 40/50 [04:58<01:08,  6.85s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 41...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 491
+INFO:root:# successes: 409 (83.3%)
+
+ 82%|████████▏ | 41/50 [05:05<01:01,  6.78s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 42...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 492
+INFO:root:# successes: 410 (83.3%)
+
+ 84%|████████▍ | 42/50 [05:12<00:55,  6.93s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 43...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 493
+INFO:root:# successes: 410 (83.2%)
+
+ 86%|████████▌ | 43/50 [05:26<01:04,  9.17s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 44...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 494
+INFO:root:# successes: 411 (83.2%)
+
+ 88%|████████▊ | 44/50 [05:37<00:57,  9.58s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 45...
+INFO:root:Success: False
+INFO:root:# episodes completed so far: 495
+INFO:root:# successes: 411 (83.0%)
+
+ 90%|█████████ | 45/50 [05:50<00:54, 10.83s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 46...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 496
+INFO:root:# successes: 412 (83.1%)
+
+ 92%|█████████▏| 46/50 [05:58<00:38,  9.70s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 47...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 497
+INFO:root:# successes: 413 (83.1%)
+
+ 94%|█████████▍| 47/50 [06:04<00:26,  8.73s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 48...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 498
+INFO:root:# successes: 414 (83.1%)
+
+ 96%|█████████▌| 48/50 [06:14<00:18,  9.05s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 49...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 499
+INFO:root:# successes: 415 (83.2%)
+
+ 98%|█████████▊| 49/50 [06:21<00:08,  8.53s/it][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 50...
+INFO:root:Success: True
+INFO:root:# episodes completed so far: 500
+INFO:root:# successes: 416 (83.2%)
+
+100%|██████████| 50/50 [06:28<00:00,  8.17s/it][A100%|██████████| 50/50 [06:28<00:00,  7.78s/it]
+INFO:root:Current task success rate: 0.94
+INFO:root:Current total success rate: 0.832
+100%|██████████| 10/10 [1:16:19<00:00, 436.79s/it]100%|██████████| 10/10 [1:16:19<00:00, 457.99s/it]
+INFO:root:Total success rate: 0.832
+INFO:root:Total episodes: 500
+Exception ignored in: <function MjRenderContext.__del__ at 0x7f185f3e9310>
+Traceback (most recent call last):
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/utils/binding_utils.py", line 199, in __del__
+    self.gl_ctx.free()
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: INFO:OpenGL.platform.ctypesloader:Failed to load library ( 'libGLU.so.0' ): libGLU.so.0: cannot open shared object file: No such file or directory
+EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f18555fb1c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f185f436340>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f185f436340>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f185f4368c0>,
+	),
+	result = 0
+)
+Exception ignored in: <function EGLGLContext.__del__ at 0x7f185f3e9160>
+Traceback (most recent call last):
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 155, in __del__
+    self.free()
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/robosuite/renderers/context/egl_context.py", line 149, in free
+    EGL.eglMakeCurrent(EGL_DISPLAY, EGL.EGL_NO_SURFACE, EGL.EGL_NO_SURFACE, EGL.EGL_NO_CONTEXT)
+  File "/root/openpi/examples/libero/.venv/lib/python3.8/site-packages/OpenGL/error.py", line 230, in glCheckError
+    raise self._errorClass(
+OpenGL.raw.EGL._errors.EGLError: EGLError(
+	err = EGL_NOT_INITIALIZED,
+	baseOperation = eglMakeCurrent,
+	cArguments = (
+		<OpenGL._opaque.EGLDisplay_pointer object at 0x7f18555fb1c0>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f185f436340>,
+		<OpenGL._opaque.EGLSurface_pointer object at 0x7f185f436340>,
+		<OpenGL._opaque.EGLContext_pointer object at 0x7f185f4368c0>,
+	),
+	result = 0
+)

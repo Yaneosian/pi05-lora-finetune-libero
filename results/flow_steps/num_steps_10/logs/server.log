@@ -1,0 +1,27 @@
+INFO:root:Loading model...
+INFO:2026-06-04 02:54:58,441:jax._src.xla_bridge:925: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:jax._src.xla_bridge:Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:2026-06-04 02:54:58,447:jax._src.xla_bridge:925: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:jax._src.xla_bridge:Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:absl:orbax-checkpoint version: 0.11.13
+INFO:absl:Created BasePyTreeCheckpointHandler: use_ocdbt=True, use_zarr3=False, pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=<orbax.checkpoint._src.metadata.array_metadata_store.Store object at 0x7abf5d900d50>
+INFO:absl:Restoring checkpoint from /root/rivermind-data/checkpoints/pi05_libero_low_mem_finetune/lora_v1/29999/params.
+INFO:absl:[thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID.
+INFO:absl:[process=0] /jax/checkpoint/read/bytes_per_sec: 950.3 MiB/s (total bytes: 6.3 GiB) (time elapsed: 6 seconds) (per-host)
+INFO:absl:Finished restoring checkpoint in 6.83 seconds from /root/rivermind-data/checkpoints/pi05_libero_low_mem_finetune/lora_v1/29999/params.
+INFO:root:Loaded norm stats from /root/openpi/assets/pi05_libero_low_mem_finetune/physical-intelligence/libero
+INFO:root:Loaded norm stats from /root/rivermind-data/checkpoints/pi05_libero_low_mem_finetune/lora_v1/29999/assets/physical-intelligence/libero
+INFO:root:Creating server (host: jupyter-njmhz04xrfr9b9zc, ip: 100.78.6.112)
+INFO:websockets.server:server listening on 0.0.0.0:8000
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 48574) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 48574) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 34360) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 34360) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 43052) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 43052) closed
+INFO:websockets.server:connection open
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 33320) opened
+INFO:openpi.serving.websocket_policy_server:Connection from ('127.0.0.1', 33320) closed
