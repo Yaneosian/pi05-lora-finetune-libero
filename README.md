@@ -85,7 +85,7 @@ Hand-labeled all 16 failure episodes across the 4 suites into 5 categories (each
 | D — Sequential (long-horizon) | 0 | 0 | 0 | 0 | **0** |
 | E — No-op / Freeze | 0 | 3 | 1 | 1 | 4 |
 
-<img src="figures/failure_distribution.png" width="550">
+<img src="figures/failure_distribution.png" width="450">
 
 **Key findings**:
 - **Grasping precision dominates** (8/16, 50%) — the main weakness is single-step manipulation, not high-level understanding.
@@ -98,11 +98,9 @@ Three failures are not single-point but cascading chains, where one error trigge
 
 | Task | Chain | Description | Video |
 | :--- | :---: | :--- | :---: |
-| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | <img src="<img width="224" height="224" alt="rollout_pick_up_the_bbq_sauce_and_place_it_in_the_basket_failure-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/745a6be1-6624-43d0-a09f-11bfe4b3b928" />
-" width="250" /> |
-| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | <img src="<img width="224" height="224" alt="rollout_open_the_top_drawer_and_put_the_bowl_inside_failure-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/467c1363-5dfd-49af-8b97-500482f7f75e" />" width="250" /> |
-| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | <img src="<img width="224" height="224" alt="rollout_put_both_moka_pots_on_the_stove_failure" src="https://github.com/user-attachments/assets/9cc364c3-6458-414d-8fb5-83482369b002" />
-" width="250" /> |
+| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | <img src="https://github.com/user-attachments/assets/745a6be1-6624-43d0-a09f-11bfe4b3b928" width="224" height="224" /> |
+| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | <img src="https://github.com/user-attachments/assets/467c1363-5dfd-49af-8b97-500482f7f75e" width="224" height="224" /> |
+| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | <img src="https://github.com/user-attachments/assets/9cc364c3-6458-414d-8fb5-83482369b002" width="224" height="224" /> |
 
 
 
