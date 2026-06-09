@@ -54,7 +54,7 @@ Fixed the action expert (rank=32), swept the PaliGemma backbone rank ∈ {4, 8, 
 | r=32 | 75.6% | 76.0% | 65.0% | 44.2% | 65.2% |
 | r=64 | 83.4% | 82.6% | 70.2% | 53.2% | 72.4% |
 
-<img src="figures/rank_ablation.png" width="550">
+<img src="figures/rank_ablation.png" width="450">
 
 **Key finding**: LIBERO-Long is the most rank-sensitive suite (+23pp from r=4 to r=64, vs. +6~10pp for others), indicating low-rank LoRA drops long-horizon capacity first.
 
@@ -69,7 +69,7 @@ Fixed the fine-tuned model (r=16, bs=64), swept denoising steps ∈ {1, 3, 5, 10
 | 5  | 98.2% | 98.4% | 97.8% | 93.4% | **97.0%** |
 | 10 | 96.8% | 98.2% | 99.0% | 93.8% | 96.9% |
 
-<img src="figures/flow_steps.png" width="550">
+<img src="figures/flow_steps.png" width="450">
 
 **Key finding**: Overall varies by only 1.1pp across all step counts. Single-step inference reaches 95.9%, suggesting the fine-tuned action distribution is near-unimodal and requires minimal iterative refinement.
 
@@ -98,9 +98,14 @@ Three failures are not single-point but cascading chains, where one error trigge
 
 | Task | Chain | Description | Video |
 | :--- | :---: | :--- | :---: |
-| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | <video src="https://github.com/user-attachments/assets/c1732b41-3713-48f2-b97b-749573309c4a" width="250" autoplay loop muted playsinline></video> |
-| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | <video src="https://github.com/user-attachments/assets/bdaf1188-72d4-44d7-aa60-e6071057895f" width="250" autoplay loop muted playsinline></video> |
-| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | <video src="https://github.com/user-attachments/assets/d6a01570-e9d1-4e90-a59a-1d09d9233e9d" width="250" autoplay loop muted playsinline></video> |
+| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | <img src="<img width="224" height="224" alt="rollout_pick_up_the_bbq_sauce_and_place_it_in_the_basket_failure-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/745a6be1-6624-43d0-a09f-11bfe4b3b928" />
+" width="250" /> |
+| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | <img src="<img width="224" height="224" alt="rollout_open_the_top_drawer_and_put_the_bowl_inside_failure-ezgif com-video-to-webp-converter" src="https://github.com/user-attachments/assets/467c1363-5dfd-49af-8b97-500482f7f75e" />" width="250" /> |
+| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | <img src="<img width="224" height="224" alt="rollout_put_both_moka_pots_on_the_stove_failure" src="https://github.com/user-attachments/assets/9cc364c3-6458-414d-8fb5-83482369b002" />
+" width="250" /> |
+
+
+
 
 ## 🚀 Reproduction
 
