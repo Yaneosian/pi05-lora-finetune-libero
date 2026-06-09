@@ -2,8 +2,6 @@
 
 Fine-tuning [Physical Intelligence's π0.5](https://www.physicalintelligence.company/) on the [LIBERO](https://libero-project.github.io/) manipulation benchmark using LoRA, with systematic analysis across rank ablation, flow-matching inference steps, and failure modes.
 
----
-
 ## 🔥 Highlights
 
 - **Outperforms PI's released checkpoint**: 97.0% overall vs. 96.4%
@@ -11,8 +9,6 @@ Fine-tuning [Physical Intelligence's π0.5](https://www.physicalintelligence.com
 - **Rank ablation** (r=4–64): Long is the most rank-sensitive suite (+23pp from r4→r64)
 - **Flow matching analysis**: single-step inference reaches 95.9%, only 1.1pp below 10-step
 - **Failure analysis**: zero sequential failures across 16 episodes, explaining the Long advantage
-
----
 
 ## 📊 Main Results
 
@@ -26,8 +22,6 @@ Three-way baseline on LIBERO (50 episodes per suite):
 | Long    | 0.0% | 91.4% | **95.4%** | **+4.0%** |
 | **Overall** | **0.0%** | **96.4%** | **97.0%** | **+0.6%** |
 
----
-
 ## 🛠 Method
 
 **Model**: π0.5 — a 3B flow-matching VLA with a PaliGemma-2B backbone and a 300M action expert.
@@ -40,15 +34,11 @@ Three-way baseline on LIBERO (50 episodes per suite):
 
 **Framework**: [openpi](https://github.com/physical-intelligence/openpi) (JAX).
 
----
-
 ## 📈 Training Curve
 
-![Training Curve](figures/loss_curve.png)
+<img src="figures/loss_curve.png" width="650">
 
 Loss converges smoothly from ~0.09 to ~0.008 over 30k steps. Gradient norm stabilizes below 0.1 after the warmup phase.
-
----
 
 ## 🧪 Experiments
 
@@ -64,11 +54,9 @@ Fixed the action expert (rank=32), swept the PaliGemma backbone rank ∈ {4, 8, 
 | r=32 | 75.6% | 76.0% | 65.0% | 44.2% | 65.2% |
 | r=64 | 83.4% | 82.6% | 70.2% | 53.2% | 72.4% |
 
-![Rank Ablation](figures/rank_ablation.png)
+<img src="figures/rank_ablation.png" width="550">
 
 **Key finding**: LIBERO-Long is the most rank-sensitive suite (+23pp from r=4 to r=64, vs. +6~10pp for others), indicating low-rank LoRA drops long-horizon capacity first.
-
----
 
 ### 2. Flow Matching Inference Steps
 
@@ -81,11 +69,9 @@ Fixed the fine-tuned model (r=16, bs=64), swept denoising steps ∈ {1, 3, 5, 10
 | 5  | 98.2% | 98.4% | 97.8% | 93.4% | **97.0%** |
 | 10 | 96.8% | 98.2% | 99.0% | 93.8% | 96.9% |
 
-![Flow Steps](figures/flow_steps.png)
+<img src="figures/flow_steps.png" width="550">
 
 **Key finding**: Overall varies by only 1.1pp across all step counts. Single-step inference reaches 95.9%, suggesting the fine-tuned action distribution is near-unimodal and requires minimal iterative refinement.
-
----
 
 ### 3. Failure Analysis
 
@@ -99,7 +85,7 @@ Hand-labeled all 16 failure episodes across the 4 suites into 5 categories (each
 | D — Sequential (long-horizon) | 0 | 0 | 0 | 0 | **0** |
 | E — No-op / Freeze | 0 | 3 | 1 | 1 | 4 |
 
-![Failure Distribution](figures/failure_distribution.png)
+<img src="figures/failure_distribution.png" width="550">
 
 **Key findings**:
 - **Grasping precision dominates** (8/16, 50%) — the main weakness is single-step manipulation, not high-level understanding.
@@ -112,23 +98,9 @@ Three failures are not single-point but cascading chains, where one error trigge
 
 | Task | Chain | Description |
 |------|-------|-------------|
-| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup |
-| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer |
-| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position |
-
-**pick_up_the_bbq_sauce_and_place_it_in_the_basket (A→B):**
-
-https://github.com/user-attachments/assets/c1732b41-3713-48f2-b97b-749573309c4a
-
-**open_the_top_drawer_and_put_the_bowl_inside (A→B→A):**
-
-https://github.com/user-attachments/assets/d6e753ab-4798-45b5-8bbf-c0200fe11230
-
-**put_both_moka_pots_on_the_stove (A/C→C):**
-
-https://github.com/user-attachments/assets/d6a01570-e9d1-4e90-a59a-1d09d9233e9d
-
----
+| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | https://github.com/user-attachments/assets/c1732b41-3713-48f2-b97b-749573309c4a |
+| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | https://github.com/user-attachments/assets/bdaf1188-72d4-44d7-aa60-e6071057895f |
+| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | https://github.com/user-attachments/assets/d6a01570-e9d1-4e90-a59a-1d09d9233e9d |
 
 ## 🚀 Reproduction
 
@@ -153,8 +125,6 @@ python scripts/eval_libero.py \
 
 See `configs/` for all training and ablation configurations.
 
----
-
 ## 📁 Repository Structure
 
 ```
@@ -168,8 +138,6 @@ See `configs/` for all training and ablation configurations.
 ├── figures/                          # result plots
 └── results/                          # evaluation logs and rollout videos
 ```
-
----
 
 ## 🙏 Acknowledgements
 
