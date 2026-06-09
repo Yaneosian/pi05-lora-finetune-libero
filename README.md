@@ -96,11 +96,11 @@ Hand-labeled all 16 failure episodes across the 4 suites into 5 categories (each
 
 Three failures are not single-point but cascading chains, where one error triggers the next:
 
-| Task | Chain | Description |
-|------|-------|-------------|
-| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | https://github.com/user-attachments/assets/c1732b41-3713-48f2-b97b-749573309c4a |
-| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | https://github.com/user-attachments/assets/bdaf1188-72d4-44d7-aa60-e6071057895f |
-| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | https://github.com/user-attachments/assets/d6a01570-e9d1-4e90-a59a-1d09d9233e9d |
+| Task | Chain | Description | Video |
+| :--- | :---: | :--- | :---: |
+| pick_up_the_bbq_sauce_and_place_it_in_the_basket | A→B | Slipped during transport, then mis-grabbed the adjacent alphabet soup | <video src="https://github.com/user-attachments/assets/c1732b41-3713-48f2-b97b-749573309c4a" width="250" autoplay loop muted playsinline></video> |
+| open_the_top_drawer_and_put_the_bowl_inside | A→B→A | Failed to open drawer → switched to wrong object → still couldn't recognize the drawer | <video src="https://github.com/user-attachments/assets/bdaf1188-72d4-44d7-aa60-e6071057895f" width="250" autoplay loop muted playsinline></video> |
+| put_both_moka_pots_on_the_stove | A/C→C | First pot fell after unstable placement, second grabbed at wrong position | <video src="https://github.com/user-attachments/assets/d6a01570-e9d1-4e90-a59a-1d09d9233e9d" width="250" autoplay loop muted playsinline></video> |
 
 ## 🚀 Reproduction
 
